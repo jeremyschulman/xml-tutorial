@@ -10,10 +10,13 @@ Read W3Schools section on XPath starting here: https://www.w3schools.com/xml/xpa
 
 In particular for Xpath expressions you will need to understand node selection techniques.
 
-Node Selections: https://www.w3schools.com/xml/xpath_syntax.asp
-Using Axes: https://www.w3schools.com/xml/xpath_axes.asp
+Node Selections:<br/>
+https://www.w3schools.com/xml/xpath_syntax.asp
 
-You will also want to use builtin functions:
+Using Axes:<br/>
+https://www.w3schools.com/xml/xpath_axes.asp
+
+You will also want to use builtin functions:</br>
 XPath Functions - https://www.w3schools.com/xml/xsl_functions.asp
 
 **Python LXML package**<br/>
