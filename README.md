@@ -4,6 +4,13 @@ As a network engineer or someone involved in network automation efforts, I need 
 to use XML data from network devices, such as NETCONFG, RESTCONF, or NXAPI, so that I can
 extract the information I need to complete my tasks.
 
+This repo contains information and tutorials that will help to navigate XML data using
+Python and the LXML library.
+
+# Contribute XML examples
+If you have specific questions that you would like answered, please share you XML data
+files in the [xml-files](xml-files) directory and ask your question in the issues area.
+
 # Resources
 **XML and XPath**<br/>
 Read W3Schools section on XPath starting here: https://www.w3schools.com/xml/xpath_intro.asp
