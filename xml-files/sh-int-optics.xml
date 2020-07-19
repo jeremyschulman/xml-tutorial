@@ -1,2155 +1,2153 @@
-<rpc-reply>
- <data>
-  <show>
-   <interface>
-    <transceiver>
-     <details>
-      <__readonly__>
-       <TABLE_interface>
-        <ROW_interface>
-         <interface>Ethernet1/1</interface>
-         <sfp>present</sfp>
-         <type>Fabric Extender Transceiver</type>
-         <name>CISCO-FINISAR   </name>
-         <partnum>FTLX8570D3BCL-C2</partnum>
-         <rev>A   </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_625>10</len_625>
-         <len_50_OM3>100</len_50_OM3>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>32.16</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>75.00</temp_alrm_hi>
-         <temp_alrm_lo>5.00</temp_alrm_lo>
-         <temp_warn_hi>70.00</temp_warn_hi>
-         <temp_warn_lo>10.00</temp_warn_lo>
-         <voltage>3.29</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>7.68</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>11.80</current_alrm_hi>
-         <current_alrm_lo>4.00</current_alrm_lo>
-         <current_warn_hi>10.80</current_warn_hi>
-         <current_warn_lo>5.00</current_warn_lo>
-         <tx_pwr>-2.79</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>2.69</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
-         <rx_pwr>-3.13</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>2.99</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/2</interface>
-         <sfp>present</sfp>
-         <type>Fabric Extender Transceiver</type>
-         <name>CISCO-FINISAR   </name>
-         <partnum>FTLX8570D3BCL-C2</partnum>
-         <rev>A   </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_625>10</len_625>
-         <len_50_OM3>100</len_50_OM3>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>32.49</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>75.00</temp_alrm_hi>
-         <temp_alrm_lo>5.00</temp_alrm_lo>
-         <temp_warn_hi>70.00</temp_warn_hi>
-         <temp_warn_lo>10.00</temp_warn_lo>
-         <voltage>3.30</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>7.67</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>11.80</current_alrm_hi>
-         <current_alrm_lo>4.00</current_alrm_lo>
-         <current_warn_hi>10.80</current_warn_hi>
-         <current_warn_lo>5.00</current_warn_lo>
-         <tx_pwr>-2.44</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>2.69</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
-         <rx_pwr>-2.35</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>2.99</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/3</interface>
-         <sfp>present</sfp>
-         <type>Fabric Extender Transceiver</type>
-         <name>CISCO-FINISAR   </name>
-         <partnum>FTLX8570D3BCL-C2</partnum>
-         <rev>A   </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_625>10</len_625>
-         <len_50_OM3>100</len_50_OM3>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>33.01</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>75.00</temp_alrm_hi>
-         <temp_alrm_lo>5.00</temp_alrm_lo>
-         <temp_warn_hi>70.00</temp_warn_hi>
-         <temp_warn_lo>10.00</temp_warn_lo>
-         <voltage>3.30</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>7.49</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>11.80</current_alrm_hi>
-         <current_alrm_lo>4.00</current_alrm_lo>
-         <current_warn_hi>10.80</current_warn_hi>
-         <current_warn_lo>5.00</current_warn_lo>
-         <tx_pwr>-2.62</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>2.69</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
-         <rx_pwr>-2.33</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>2.99</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/4</interface>
-         <sfp>present</sfp>
-         <type>Fabric Extender Transceiver</type>
-         <name>CISCO-FINISAR   </name>
-         <partnum>FTLX8570D3BCL-C2</partnum>
-         <rev>A   </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_625>10</len_625>
-         <len_50_OM3>100</len_50_OM3>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>31.52</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>75.00</temp_alrm_hi>
-         <temp_alrm_lo>5.00</temp_alrm_lo>
-         <temp_warn_hi>70.00</temp_warn_hi>
-         <temp_warn_lo>10.00</temp_warn_lo>
-         <voltage>3.30</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>7.79</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>11.80</current_alrm_hi>
-         <current_alrm_lo>4.00</current_alrm_lo>
-         <current_warn_hi>10.80</current_warn_hi>
-         <current_warn_lo>5.00</current_warn_lo>
-         <tx_pwr>-2.51</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>2.69</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
-         <rx_pwr>-2.16</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>2.99</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/5</interface>
-         <sfp>present</sfp>
-         <type>Fabric Extender Transceiver</type>
-         <name>CISCO-FINISAR   </name>
-         <partnum>FTLX8570D3BCL-C2</partnum>
-         <rev>A   </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_625>10</len_625>
-         <len_50_OM3>100</len_50_OM3>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>33.86</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>75.00</temp_alrm_hi>
-         <temp_alrm_lo>5.00</temp_alrm_lo>
-         <temp_warn_hi>70.00</temp_warn_hi>
-         <temp_warn_lo>10.00</temp_warn_lo>
-         <voltage>3.29</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>7.48</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>11.80</current_alrm_hi>
-         <current_alrm_lo>4.00</current_alrm_lo>
-         <current_warn_hi>10.80</current_warn_hi>
-         <current_warn_lo>5.00</current_warn_lo>
-         <tx_pwr>-3.02</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>2.69</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
-         <rx_pwr>-2.26</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>2.99</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/6</interface>
-         <sfp>present</sfp>
-         <type>Fabric Extender Transceiver</type>
-         <name>CISCO-FINISAR   </name>
-         <partnum>FTLX8570D3BCL-C2</partnum>
-         <rev>A   </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_625>10</len_625>
-         <len_50_OM3>100</len_50_OM3>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>33.65</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>75.00</temp_alrm_hi>
-         <temp_alrm_lo>5.00</temp_alrm_lo>
-         <temp_warn_hi>70.00</temp_warn_hi>
-         <temp_warn_lo>10.00</temp_warn_lo>
-         <voltage>3.30</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>7.69</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>11.80</current_alrm_hi>
-         <current_alrm_lo>4.00</current_alrm_lo>
-         <current_warn_hi>10.80</current_warn_hi>
-         <current_warn_lo>5.00</current_warn_lo>
-         <tx_pwr>-2.27</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>2.69</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
-         <rx_pwr>-2.13</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>2.99</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/7</interface>
-         <sfp>present</sfp>
-         <type>Fabric Extender Transceiver</type>
-         <name>CISCO-FINISAR   </name>
-         <partnum>FTLX8570D3BCL-C2</partnum>
-         <rev>A   </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_625>10</len_625>
-         <len_50_OM3>100</len_50_OM3>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>31.25</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>75.00</temp_alrm_hi>
-         <temp_alrm_lo>5.00</temp_alrm_lo>
-         <temp_warn_hi>70.00</temp_warn_hi>
-         <temp_warn_lo>10.00</temp_warn_lo>
-         <voltage>3.29</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>7.58</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>11.80</current_alrm_hi>
-         <current_alrm_lo>4.00</current_alrm_lo>
-         <current_warn_hi>10.80</current_warn_hi>
-         <current_warn_lo>5.00</current_warn_lo>
-         <tx_pwr>-3.03</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>2.69</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
-         <rx_pwr>-2.21</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>2.99</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/8</interface>
-         <sfp>present</sfp>
-         <type>Fabric Extender Transceiver</type>
-         <name>CISCO-FINISAR   </name>
-         <partnum>FTLX8570D3BCL-C2</partnum>
-         <rev>A   </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_625>10</len_625>
-         <len_50_OM3>100</len_50_OM3>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>29.81</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>75.00</temp_alrm_hi>
-         <temp_alrm_lo>5.00</temp_alrm_lo>
-         <temp_warn_hi>70.00</temp_warn_hi>
-         <temp_warn_lo>10.00</temp_warn_lo>
-         <voltage>3.30</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>7.46</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>11.80</current_alrm_hi>
-         <current_alrm_lo>4.00</current_alrm_lo>
-         <current_warn_hi>10.80</current_warn_hi>
-         <current_warn_lo>5.00</current_warn_lo>
-         <tx_pwr>-2.36</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>2.69</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
-         <rx_pwr>-2.47</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>2.99</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/9</interface>
-         <sfp>present</sfp>
-         <type/>
-         <name>FCI Electronics </name>
-         <partnum>10110818-4030HLF</partnum>
-         <rev>G   </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_cu>3</len_cu>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/10</interface>
-         <sfp>present</sfp>
-         <type/>
-         <name>FCI Electronics </name>
-         <partnum>10110818-4030HLF</partnum>
-         <rev>G   </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_cu>3</len_cu>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/11</interface>
-         <sfp>present</sfp>
-         <type/>
-         <name>FCI Electronics </name>
-         <partnum>10110818-4030HLF</partnum>
-         <rev>G   </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_cu>3</len_cu>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/12</interface>
-         <sfp>present</sfp>
-         <type/>
-         <name>FCI Electronics </name>
-         <partnum>10110818-4030HLF</partnum>
-         <rev>G   </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_cu>3</len_cu>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/13</interface>
-         <sfp>not present</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/14</interface>
-         <sfp>not present</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/15</interface>
-         <sfp>present</sfp>
-         <type>SFP-1000base-LH</type>
-         <name>CISCO           </name>
-         <partnum>RTXM191-404-C88 </partnum>
-         <rev>1.0 </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>1300</nom_bitrate>
-         <len_9>10</len_9>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>26.65</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>89.00</temp_alrm_hi>
-         <temp_alrm_lo>-9.00</temp_alrm_lo>
-         <temp_warn_hi>85.00</temp_warn_hi>
-         <temp_warn_lo>-5.00</temp_warn_lo>
-         <voltage>3.29</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.59</volt_alrm_hi>
-         <volt_alrm_lo>3.00</volt_alrm_lo>
-         <volt_warn_hi>3.50</volt_warn_hi>
-         <volt_warn_lo>3.09</volt_warn_lo>
-         <current>8.52</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>60.00</current_alrm_hi>
-         <current_alrm_lo>0.50</current_alrm_lo>
-         <current_warn_hi>50.00</current_warn_hi>
-         <current_warn_lo>1.00</current_warn_lo>
-         <tx_pwr>-6.09</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>0.99</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-13.56</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>-3.00</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-9.50</tx_pwr_warn_lo>
-         <rx_pwr_flag>--</rx_pwr_flag>
-         <rx_pwr_alrm_hi>0.99</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-23.01</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>-3.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-19.20</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/16</interface>
-         <sfp>not present</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/17</interface>
-         <sfp>not present</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/18</interface>
-         <sfp>not present</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/19</interface>
-         <sfp>not present</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/20</interface>
-         <sfp>not present</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/21</interface>
-         <sfp>not present</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/22</interface>
-         <sfp>present</sfp>
-         <type>SFP-1000base-LH</type>
-         <name>CISCO           </name>
-         <partnum>SFCT-5716PZ-CS1 </partnum>
-         <rev>002 </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>1300</nom_bitrate>
-         <len_9>10</len_9>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>27.90</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>90.00</temp_alrm_hi>
-         <temp_alrm_lo>-10.00</temp_alrm_lo>
-         <temp_warn_hi>85.00</temp_warn_hi>
-         <temp_warn_lo>-5.00</temp_warn_lo>
-         <voltage>3.32</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.47</volt_warn_hi>
-         <volt_warn_lo>3.14</volt_warn_lo>
-         <current>12.64</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>65.09</current_alrm_hi>
-         <current_alrm_lo>2.40</current_alrm_lo>
-         <current_warn_hi>61.00</current_warn_hi>
-         <current_warn_lo>3.00</current_warn_lo>
-         <tx_pwr>-7.12</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>0.00</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-13.01</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>-3.00</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-9.50</tx_pwr_warn_lo>
-         <rx_pwr>-15.68</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>0.00</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-23.01</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>-3.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-19.20</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/23</interface>
-         <sfp>present</sfp>
-         <type>10Gbase-LR</type>
-         <name>CISCO-FINISAR   </name>
-         <partnum>FTLX1474D3BCL-C3</partnum>
-         <rev>A   </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_9>10</len_9>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>28.08</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>75.00</temp_alrm_hi>
-         <temp_alrm_lo>-5.00</temp_alrm_lo>
-         <temp_warn_hi>70.00</temp_warn_hi>
-         <temp_warn_lo>0.00</temp_warn_lo>
-         <voltage>3.30</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>43.32</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>70.00</current_alrm_hi>
-         <current_alrm_lo>1.00</current_alrm_lo>
-         <current_warn_hi>68.00</current_warn_hi>
-         <current_warn_lo>2.00</current_warn_lo>
-         <tx_pwr>-2.42</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>3.49</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-12.21</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>0.49</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-8.21</tx_pwr_warn_lo>
-         <rx_pwr>-4.19</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>3.49</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-18.53</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>0.49</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/24</interface>
-         <sfp>present</sfp>
-         <type>10Gbase-LR</type>
-         <name>CISCO-FINISAR   </name>
-         <partnum>FTLX1474D3BCL-C3</partnum>
-         <rev>A   </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_9>10</len_9>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>29.52</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>75.00</temp_alrm_hi>
-         <temp_alrm_lo>-5.00</temp_alrm_lo>
-         <temp_warn_hi>70.00</temp_warn_hi>
-         <temp_warn_lo>0.00</temp_warn_lo>
-         <voltage>3.31</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>36.36</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>70.00</current_alrm_hi>
-         <current_alrm_lo>1.00</current_alrm_lo>
-         <current_warn_hi>68.00</current_warn_hi>
-         <current_warn_lo>2.00</current_warn_lo>
-         <tx_pwr>-2.14</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>3.49</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-12.21</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>0.49</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-8.21</tx_pwr_warn_lo>
-         <rx_pwr>-7.49</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>3.49</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-18.53</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>0.49</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/25</interface>
-         <sfp>present</sfp>
-         <type>10Gbase-LR</type>
-         <name>CISCO-FINISAR   </name>
-         <partnum>FTLX1474D3BCL-C3</partnum>
-         <rev>A   </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_9>10</len_9>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>33.35</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>75.00</temp_alrm_hi>
-         <temp_alrm_lo>-5.00</temp_alrm_lo>
-         <temp_warn_hi>70.00</temp_warn_hi>
-         <temp_warn_lo>0.00</temp_warn_lo>
-         <voltage>3.30</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>41.47</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>70.00</current_alrm_hi>
-         <current_alrm_lo>1.00</current_alrm_lo>
-         <current_warn_hi>68.00</current_warn_hi>
-         <current_warn_lo>2.00</current_warn_lo>
-         <tx_pwr>-2.54</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>3.49</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-12.21</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>0.49</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-8.21</tx_pwr_warn_lo>
-         <rx_pwr>-1.33</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>3.49</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-18.53</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>0.49</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/26</interface>
-         <sfp>present</sfp>
-         <type>SFP-1000base-LH</type>
-         <name>CISCO           </name>
-         <partnum>SFCT-5716PZ     </partnum>
-         <rev>001 </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>1300</nom_bitrate>
-         <len_9>10</len_9>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>30.39</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>90.00</temp_alrm_hi>
-         <temp_alrm_lo>-10.00</temp_alrm_lo>
-         <temp_warn_hi>85.00</temp_warn_hi>
-         <temp_warn_lo>-5.00</temp_warn_lo>
-         <voltage>3.32</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.47</volt_warn_hi>
-         <volt_warn_lo>3.14</volt_warn_lo>
-         <current>16.32</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>65.09</current_alrm_hi>
-         <current_alrm_lo>2.40</current_alrm_lo>
-         <current_warn_hi>61.00</current_warn_hi>
-         <current_warn_lo>3.00</current_warn_lo>
-         <tx_pwr>-7.23</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>0.00</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-13.01</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>-3.00</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-9.50</tx_pwr_warn_lo>
-         <rx_pwr>-7.30</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>0.00</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-23.01</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>-3.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-19.20</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/27</interface>
-         <sfp>not present</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/28</interface>
-         <sfp>present</sfp>
-         <type>SFP-1000base-LH</type>
-         <name>CISCO           </name>
-         <partnum>RTXM191-404-C88 </partnum>
-         <rev>1.0 </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>1300</nom_bitrate>
-         <len_9>10</len_9>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>29.10</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>89.00</temp_alrm_hi>
-         <temp_alrm_lo>-9.00</temp_alrm_lo>
-         <temp_warn_hi>85.00</temp_warn_hi>
-         <temp_warn_lo>-5.00</temp_warn_lo>
-         <voltage>3.29</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.59</volt_alrm_hi>
-         <volt_alrm_lo>3.00</volt_alrm_lo>
-         <volt_warn_hi>3.50</volt_warn_hi>
-         <volt_warn_lo>3.09</volt_warn_lo>
-         <current>7.95</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>60.00</current_alrm_hi>
-         <current_alrm_lo>0.50</current_alrm_lo>
-         <current_warn_hi>50.00</current_warn_hi>
-         <current_warn_lo>1.00</current_warn_lo>
-         <tx_pwr>-5.52</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>0.99</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-13.56</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>-3.00</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-9.50</tx_pwr_warn_lo>
-         <rx_pwr>-6.17</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>0.99</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-23.01</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>-3.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-19.20</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/29</interface>
-         <sfp>present</sfp>
-         <type>SFP-1000base-LH</type>
-         <name>CISCO           </name>
-         <partnum>RTXM191-404-C88 </partnum>
-         <rev>1.0 </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>1300</nom_bitrate>
-         <len_9>10</len_9>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>30.57</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>89.00</temp_alrm_hi>
-         <temp_alrm_lo>-9.00</temp_alrm_lo>
-         <temp_warn_hi>85.00</temp_warn_hi>
-         <temp_warn_lo>-5.00</temp_warn_lo>
-         <voltage>3.28</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.59</volt_alrm_hi>
-         <volt_alrm_lo>3.00</volt_alrm_lo>
-         <volt_warn_hi>3.50</volt_warn_hi>
-         <volt_warn_lo>3.09</volt_warn_lo>
-         <current>8.52</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>60.00</current_alrm_hi>
-         <current_alrm_lo>0.50</current_alrm_lo>
-         <current_warn_hi>50.00</current_warn_hi>
-         <current_warn_lo>1.00</current_warn_lo>
-         <tx_pwr>-5.05</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>0.99</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-13.56</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>-3.00</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-9.50</tx_pwr_warn_lo>
-         <rx_pwr>-12.14</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>0.99</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-23.01</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>-3.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-19.20</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/30</interface>
-         <sfp>not present</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/31</interface>
-         <sfp>present</sfp>
-         <type>10Gbase-SR</type>
-         <name>CISCO-AVAGO     </name>
-         <partnum>SFBR-709SMZ-CS2 </partnum>
-         <rev>G4.1</rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_50>82</len_50>
-         <len_625>26</len_625>
-         <len_cu>40</len_cu>
-         <len_50_OM3>300</len_50_OM3>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>31.37</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>75.00</temp_alrm_hi>
-         <temp_alrm_lo>-5.00</temp_alrm_lo>
-         <temp_warn_hi>70.00</temp_warn_hi>
-         <temp_warn_lo>0.00</temp_warn_lo>
-         <voltage>3.29</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>7.35</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>10.50</current_alrm_hi>
-         <current_alrm_lo>2.50</current_alrm_lo>
-         <current_warn_hi>10.50</current_warn_hi>
-         <current_warn_lo>2.50</current_warn_lo>
-         <tx_pwr>-2.31</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>1.69</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
-         <rx_pwr>-3.36</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>1.99</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/32</interface>
-         <sfp>present</sfp>
-         <type>10Gbase-SR</type>
-         <name>CISCO-AVAGO     </name>
-         <partnum>SFBR-709SMZ-CS2 </partnum>
-         <rev>G4.1</rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_50>82</len_50>
-         <len_625>26</len_625>
-         <len_cu>40</len_cu>
-         <len_50_OM3>300</len_50_OM3>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>31.93</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>75.00</temp_alrm_hi>
-         <temp_alrm_lo>-5.00</temp_alrm_lo>
-         <temp_warn_hi>70.00</temp_warn_hi>
-         <temp_warn_lo>0.00</temp_warn_lo>
-         <voltage>3.30</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>7.14</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>10.50</current_alrm_hi>
-         <current_alrm_lo>2.50</current_alrm_lo>
-         <current_warn_hi>10.50</current_warn_hi>
-         <current_warn_lo>2.50</current_warn_lo>
-         <tx_pwr>-2.26</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>1.69</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
-         <rx_pwr>-3.78</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>1.99</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/33</interface>
-         <sfp>present</sfp>
-         <type>10Gbase-SR</type>
-         <name>CISCO-FINISAR   </name>
-         <partnum>FTLX8571D3BCL-CS</partnum>
-         <rev>E   </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_50>82</len_50>
-         <len_625>26</len_625>
-         <len_50_OM3>300</len_50_OM3>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>35.35</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>75.00</temp_alrm_hi>
-         <temp_alrm_lo>-5.00</temp_alrm_lo>
-         <temp_warn_hi>70.00</temp_warn_hi>
-         <temp_warn_lo>0.00</temp_warn_lo>
-         <voltage>3.28</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>8.01</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>11.80</current_alrm_hi>
-         <current_alrm_lo>4.00</current_alrm_lo>
-         <current_warn_hi>10.80</current_warn_hi>
-         <current_warn_lo>5.00</current_warn_lo>
-         <tx_pwr>-2.21</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>1.69</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
-         <rx_pwr>-2.15</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>1.99</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/34</interface>
-         <sfp>present</sfp>
-         <type>SFP-1000base-LH</type>
-         <name>CISCO           </name>
-         <partnum>SFCT-5716PZ-CS1 </partnum>
-         <rev>002 </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>1300</nom_bitrate>
-         <len_9>10</len_9>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>30.72</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>90.00</temp_alrm_hi>
-         <temp_alrm_lo>-10.00</temp_alrm_lo>
-         <temp_warn_hi>85.00</temp_warn_hi>
-         <temp_warn_lo>-5.00</temp_warn_lo>
-         <voltage>3.31</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.47</volt_warn_hi>
-         <volt_warn_lo>3.14</volt_warn_lo>
-         <current>13.33</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>65.09</current_alrm_hi>
-         <current_alrm_lo>2.40</current_alrm_lo>
-         <current_warn_hi>61.00</current_warn_hi>
-         <current_warn_lo>3.00</current_warn_lo>
-         <tx_pwr>-6.86</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>0.00</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-13.01</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>-3.00</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-9.50</tx_pwr_warn_lo>
-         <rx_pwr_flag>--</rx_pwr_flag>
-         <rx_pwr_alrm_hi>0.00</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-23.01</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>-3.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-19.20</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/35</interface>
-         <sfp>present</sfp>
-         <type>10Gbase-SR</type>
-         <name>CISCO-OPLINK    </name>
-         <partnum>TPP4XGDS0CCISE3G</partnum>
-         <rev>01  </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_50>82</len_50>
-         <len_625>26</len_625>
-         <len_cu>40</len_cu>
-         <len_50_OM3>300</len_50_OM3>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>32.55</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>75.00</temp_alrm_hi>
-         <temp_alrm_lo>-5.00</temp_alrm_lo>
-         <temp_warn_hi>70.00</temp_warn_hi>
-         <temp_warn_lo>0.00</temp_warn_lo>
-         <voltage>3.26</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>6.80</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>12.00</current_alrm_hi>
-         <current_alrm_lo>0.50</current_alrm_lo>
-         <current_warn_hi>11.50</current_warn_hi>
-         <current_warn_lo>1.00</current_warn_lo>
-         <tx_pwr>-2.57</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>1.99</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>-1.00</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
-         <rx_pwr_flag>--</rx_pwr_flag>
-         <rx_pwr_alrm_hi>1.99</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/36</interface>
-         <sfp>present</sfp>
-         <type>10Gbase-SR</type>
-         <name>CISCO-AVAGO     </name>
-         <partnum>SFBR-709SMZ-CS2 </partnum>
-         <rev>G4.1</rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_50>82</len_50>
-         <len_625>26</len_625>
-         <len_cu>40</len_cu>
-         <len_50_OM3>300</len_50_OM3>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>31.82</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>75.00</temp_alrm_hi>
-         <temp_alrm_lo>-5.00</temp_alrm_lo>
-         <temp_warn_hi>70.00</temp_warn_hi>
-         <temp_warn_lo>0.00</temp_warn_lo>
-         <voltage>3.29</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>5.57</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>10.50</current_alrm_hi>
-         <current_alrm_lo>2.50</current_alrm_lo>
-         <current_warn_hi>10.50</current_warn_hi>
-         <current_warn_lo>2.50</current_warn_lo>
-         <tx_pwr>-2.27</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>1.69</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
-         <rx_pwr_flag>--</rx_pwr_flag>
-         <rx_pwr_alrm_hi>1.99</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/37</interface>
-         <sfp>present</sfp>
-         <type>10Gbase-LR</type>
-         <name>CISCO-AVAGO     </name>
-         <partnum>SFCT-709SMZ-CS1 </partnum>
-         <rev>G2.1</rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_9>10</len_9>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>32.24</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>75.00</temp_alrm_hi>
-         <temp_alrm_lo>-5.00</temp_alrm_lo>
-         <temp_warn_hi>70.00</temp_warn_hi>
-         <temp_warn_lo>0.00</temp_warn_lo>
-         <voltage>3.29</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>24.50</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>80.00</current_alrm_hi>
-         <current_alrm_lo>8.00</current_alrm_lo>
-         <current_warn_hi>70.00</current_warn_hi>
-         <current_warn_lo>10.00</current_warn_lo>
-         <tx_pwr>-1.36</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>3.49</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-12.21</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>0.49</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-8.21</tx_pwr_warn_lo>
-         <rx_pwr>-3.24</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>3.49</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-18.53</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>0.49</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/38</interface>
-         <sfp>not present</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/39</interface>
-         <sfp>present</sfp>
-         <type>SFP-1000base-LH</type>
-         <name>CISCO           </name>
-         <partnum>SFCT-5716PZ     </partnum>
-         <rev>001 </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>1300</nom_bitrate>
-         <len_9>10</len_9>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>31.10</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>90.00</temp_alrm_hi>
-         <temp_alrm_lo>-10.00</temp_alrm_lo>
-         <temp_warn_hi>85.00</temp_warn_hi>
-         <temp_warn_lo>-5.00</temp_warn_lo>
-         <voltage>3.29</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.47</volt_warn_hi>
-         <volt_warn_lo>3.14</volt_warn_lo>
-         <current>15.32</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>65.09</current_alrm_hi>
-         <current_alrm_lo>2.40</current_alrm_lo>
-         <current_warn_hi>61.00</current_warn_hi>
-         <current_warn_lo>3.00</current_warn_lo>
-         <tx_pwr>-7.14</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>0.00</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-13.01</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>-3.00</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-9.50</tx_pwr_warn_lo>
-         <rx_pwr>-6.81</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>0.00</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-23.01</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>-3.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-19.20</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/40</interface>
-         <sfp>present</sfp>
-         <type>10Gbase-LR</type>
-         <name>CISCO-AVAGO     </name>
-         <partnum>SFCT-739SMZ-CS1 </partnum>
-         <rev>G3.1</rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_9>10</len_9>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>35.76</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>75.00</temp_alrm_hi>
-         <temp_alrm_lo>-5.00</temp_alrm_lo>
-         <temp_warn_hi>70.00</temp_warn_hi>
-         <temp_warn_lo>0.00</temp_warn_lo>
-         <voltage>3.29</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>24.16</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>80.00</current_alrm_hi>
-         <current_alrm_lo>8.00</current_alrm_lo>
-         <current_warn_hi>70.00</current_warn_hi>
-         <current_warn_lo>10.00</current_warn_lo>
-         <tx_pwr>-1.38</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>3.49</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-12.21</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>0.49</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-8.21</tx_pwr_warn_lo>
-         <rx_pwr>-2.89</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>3.49</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-18.53</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>0.49</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/41</interface>
-         <sfp>present</sfp>
-         <type>10Gbase-LR</type>
-         <name>CISCO-FINISAR   </name>
-         <partnum>FTLX1474D3BCL-C3</partnum>
-         <rev>A   </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_9>10</len_9>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>36.72</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>75.00</temp_alrm_hi>
-         <temp_alrm_lo>-5.00</temp_alrm_lo>
-         <temp_warn_hi>70.00</temp_warn_hi>
-         <temp_warn_lo>0.00</temp_warn_lo>
-         <voltage>3.29</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>53.60</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>70.00</current_alrm_hi>
-         <current_alrm_lo>1.00</current_alrm_lo>
-         <current_warn_hi>68.00</current_warn_hi>
-         <current_warn_lo>2.00</current_warn_lo>
-         <tx_pwr>-2.45</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>3.49</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-12.21</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>0.49</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-8.21</tx_pwr_warn_lo>
-         <rx_pwr>-4.49</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>3.49</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-18.53</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>0.49</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/42</interface>
-         <sfp>present</sfp>
-         <type>10Gbase-LR</type>
-         <name>Arista Networks </name>
-         <partnum>SFP-10G-LR-AR   </partnum>
-         <rev>B4  </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_9>10</len_9>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>44.05</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>90.00</temp_alrm_hi>
-         <temp_alrm_lo>-10.00</temp_alrm_lo>
-         <temp_warn_hi>85.00</temp_warn_hi>
-         <temp_warn_lo>-5.00</temp_warn_lo>
-         <voltage>3.27</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>41.56</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>100.00</current_alrm_hi>
-         <current_alrm_lo>2.00</current_alrm_lo>
-         <current_warn_hi>80.00</current_warn_hi>
-         <current_warn_lo>4.00</current_warn_lo>
-         <tx_pwr>-2.32</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>1.29</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-9.17</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>0.49</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-8.21</tx_pwr_warn_lo>
-         <rx_pwr>-2.20</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>3.01</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-18.23</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>0.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-15.08</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/43</interface>
-         <sfp>present</sfp>
-         <type>10Gbase-LR</type>
-         <name>Arista Networks </name>
-         <partnum>SFP-10G-LR-AR   </partnum>
-         <rev>B4  </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_9>10</len_9>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>42.26</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>90.00</temp_alrm_hi>
-         <temp_alrm_lo>-10.00</temp_alrm_lo>
-         <temp_warn_hi>85.00</temp_warn_hi>
-         <temp_warn_lo>-5.00</temp_warn_lo>
-         <voltage>3.25</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>42.23</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>100.00</current_alrm_hi>
-         <current_alrm_lo>2.00</current_alrm_lo>
-         <current_warn_hi>80.00</current_warn_hi>
-         <current_warn_lo>4.00</current_warn_lo>
-         <tx_pwr>-2.32</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>1.29</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-9.17</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>0.49</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-8.21</tx_pwr_warn_lo>
-         <rx_pwr>-1.61</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>3.01</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-18.23</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>0.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-15.08</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/44</interface>
-         <sfp>present</sfp>
-         <type>10Gbase-LR</type>
-         <name>CISCO-FINISAR   </name>
-         <partnum>FTLX1474D3BCL-C3</partnum>
-         <rev>A   </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_9>10</len_9>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>39.22</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>75.00</temp_alrm_hi>
-         <temp_alrm_lo>-5.00</temp_alrm_lo>
-         <temp_warn_hi>70.00</temp_warn_hi>
-         <temp_warn_lo>0.00</temp_warn_lo>
-         <voltage>3.30</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>41.28</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>70.00</current_alrm_hi>
-         <current_alrm_lo>1.00</current_alrm_lo>
-         <current_warn_hi>68.00</current_warn_hi>
-         <current_warn_lo>2.00</current_warn_lo>
-         <tx_pwr>-1.87</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>3.49</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-12.21</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>0.49</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-8.21</tx_pwr_warn_lo>
-         <rx_pwr>-4.03</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>3.49</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-18.53</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>0.49</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/45</interface>
-         <sfp>present</sfp>
-         <type>10Gbase-LR</type>
-         <name>Arista Networks </name>
-         <partnum>SFP-10G-LR-AR   </partnum>
-         <rev>B4  </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_9>10</len_9>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>38.99</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>90.00</temp_alrm_hi>
-         <temp_alrm_lo>-10.00</temp_alrm_lo>
-         <temp_warn_hi>85.00</temp_warn_hi>
-         <temp_warn_lo>-5.00</temp_warn_lo>
-         <voltage>3.26</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.46</volt_warn_hi>
-         <volt_warn_lo>3.13</volt_warn_lo>
-         <current>32.55</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>100.00</current_alrm_hi>
-         <current_alrm_lo>2.00</current_alrm_lo>
-         <current_warn_hi>80.00</current_warn_hi>
-         <current_warn_lo>4.00</current_warn_lo>
-         <tx_pwr>-0.99</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>1.29</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-9.17</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>0.49</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-8.21</tx_pwr_warn_lo>
-         <rx_pwr>-10.36</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>3.01</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-18.23</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>0.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-15.08</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/46</interface>
-         <sfp>present</sfp>
-         <type>SFP-1000base-LH</type>
-         <name>CISCO           </name>
-         <partnum>SFCT-5716PZ     </partnum>
-         <rev>001 </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>1300</nom_bitrate>
-         <len_9>10</len_9>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>4</ciscoid_1>
-         <temperature>34.28</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>90.00</temp_alrm_hi>
-         <temp_alrm_lo>-10.00</temp_alrm_lo>
-         <temp_warn_hi>85.00</temp_warn_hi>
-         <temp_warn_lo>-5.00</temp_warn_lo>
-         <voltage>3.32</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.63</volt_alrm_hi>
-         <volt_alrm_lo>2.97</volt_alrm_lo>
-         <volt_warn_hi>3.47</volt_warn_hi>
-         <volt_warn_lo>3.14</volt_warn_lo>
-         <current>14.86</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>65.09</current_alrm_hi>
-         <current_alrm_lo>2.40</current_alrm_lo>
-         <current_warn_hi>61.00</current_warn_hi>
-         <current_warn_lo>3.00</current_warn_lo>
-         <tx_pwr>-6.77</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>0.00</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-13.01</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>-3.00</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-9.50</tx_pwr_warn_lo>
-         <rx_pwr>-10.75</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>0.00</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-23.01</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>-3.00</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-19.20</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/47</interface>
-         <sfp>not present</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet1/48</interface>
-         <sfp>not present</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet2/1</interface>
-         <sfp>present</sfp>
-         <type>QSFP-H40G-AOC1M</type>
-         <name>CISCO           </name>
-         <partnum>FCBN410QE2C01-C1</partnum>
-         <rev>D </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_cu>1</len_cu>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>16</ciscoid_1>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet2/2</interface>
-         <sfp>present</sfp>
-         <type>QSFP-H40G-AOC1M</type>
-         <name>CISCO           </name>
-         <partnum>FCBN410QE2C01-C1</partnum>
-         <rev>D </rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_cu>1</len_cu>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>16</ciscoid_1>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet2/3</interface>
-         <sfp>present</sfp>
-         <type/>
-         <name>Arista Networks </name>
-         <partnum>QSFP-40G-LR4-AR </partnum>
-         <rev>--</rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_9>10</len_9>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>196</ciscoid_1>
-         <temperature>48.70</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>80.00</temp_alrm_hi>
-         <temp_alrm_lo>-10.00</temp_alrm_lo>
-         <temp_warn_hi>75.00</temp_warn_hi>
-         <temp_warn_lo>-5.00</temp_warn_lo>
-         <voltage>3.25</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.70</volt_alrm_hi>
-         <volt_alrm_lo>2.90</volt_alrm_lo>
-         <volt_warn_hi>3.59</volt_warn_hi>
-         <volt_warn_lo>3.00</volt_warn_lo>
-         <current>38.18</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>63.77</current_alrm_hi>
-         <current_alrm_lo>69.66</current_alrm_lo>
-         <current_warn_hi>94.48</current_warn_hi>
-         <current_warn_lo>38.97</current_warn_lo>
-         <tx_pwr>-0.39</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>3.29</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-8.21</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>2.29</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-7.01</tx_pwr_warn_lo>
-         <rx_pwr>-1.51</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>4.49</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-16.57</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>2.49</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
-         <temperature>48.75</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>80.00</temp_alrm_hi>
-         <temp_alrm_lo>-10.00</temp_alrm_lo>
-         <temp_warn_hi>75.00</temp_warn_hi>
-         <temp_warn_lo>-5.00</temp_warn_lo>
-         <voltage>3.25</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.70</volt_alrm_hi>
-         <volt_alrm_lo>2.90</volt_alrm_lo>
-         <volt_warn_hi>3.59</volt_warn_hi>
-         <volt_warn_lo>3.00</volt_warn_lo>
-         <current>36.36</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>63.77</current_alrm_hi>
-         <current_alrm_lo>69.66</current_alrm_lo>
-         <current_warn_hi>94.48</current_warn_hi>
-         <current_warn_lo>38.97</current_warn_lo>
-         <tx_pwr>0.81</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>3.29</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-8.21</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>2.29</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-7.01</tx_pwr_warn_lo>
-         <rx_pwr>-2.50</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>4.49</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-16.57</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>2.49</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
-         <temperature>48.70</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>80.00</temp_alrm_hi>
-         <temp_alrm_lo>-10.00</temp_alrm_lo>
-         <temp_warn_hi>75.00</temp_warn_hi>
-         <temp_warn_lo>-5.00</temp_warn_lo>
-         <voltage>3.25</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.70</volt_alrm_hi>
-         <volt_alrm_lo>2.90</volt_alrm_lo>
-         <volt_warn_hi>3.59</volt_warn_hi>
-         <volt_warn_lo>3.00</volt_warn_lo>
-         <current>36.90</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>63.77</current_alrm_hi>
-         <current_alrm_lo>69.66</current_alrm_lo>
-         <current_warn_hi>94.48</current_warn_hi>
-         <current_warn_lo>38.97</current_warn_lo>
-         <tx_pwr>-0.07</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>3.29</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-8.21</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>2.29</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-7.01</tx_pwr_warn_lo>
-         <rx_pwr>-1.19</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>4.49</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-16.57</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>2.49</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
-         <temperature>48.70</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>80.00</temp_alrm_hi>
-         <temp_alrm_lo>-10.00</temp_alrm_lo>
-         <temp_warn_hi>75.00</temp_warn_hi>
-         <temp_warn_lo>-5.00</temp_warn_lo>
-         <voltage>3.25</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.70</volt_alrm_hi>
-         <volt_alrm_lo>2.90</volt_alrm_lo>
-         <volt_warn_hi>3.59</volt_warn_hi>
-         <volt_warn_lo>3.00</volt_warn_lo>
-         <current>37.11</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>63.77</current_alrm_hi>
-         <current_alrm_lo>69.66</current_alrm_lo>
-         <current_warn_hi>94.48</current_warn_hi>
-         <current_warn_lo>38.97</current_warn_lo>
-         <tx_pwr>0.33</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>3.29</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-8.21</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>2.29</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-7.01</tx_pwr_warn_lo>
-         <rx_pwr>0.17</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>4.49</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-16.57</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>2.49</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet2/4</interface>
-         <sfp>present</sfp>
-         <type/>
-         <name>Arista Networks </name>
-         <partnum>QSFP-40G-LR4-AR </partnum>
-         <rev>--</rev>
-         <serialnum>***SECRET***</serialnum>
-         <nom_bitrate>10300</nom_bitrate>
-         <len_9>10</len_9>
-         <ciscoid>--</ciscoid>
-         <ciscoid_1>196</ciscoid_1>
-         <temperature>47.96</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>80.00</temp_alrm_hi>
-         <temp_alrm_lo>-10.00</temp_alrm_lo>
-         <temp_warn_hi>75.00</temp_warn_hi>
-         <temp_warn_lo>-5.00</temp_warn_lo>
-         <voltage>3.25</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.70</volt_alrm_hi>
-         <volt_alrm_lo>2.90</volt_alrm_lo>
-         <volt_warn_hi>3.59</volt_warn_hi>
-         <volt_warn_lo>3.00</volt_warn_lo>
-         <current>37.13</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>63.77</current_alrm_hi>
-         <current_alrm_lo>69.66</current_alrm_lo>
-         <current_warn_hi>94.48</current_warn_hi>
-         <current_warn_lo>38.97</current_warn_lo>
-         <tx_pwr>-0.17</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>3.29</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-8.21</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>2.29</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-7.01</tx_pwr_warn_lo>
-         <rx_pwr>-1.67</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>4.49</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-16.57</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>2.49</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
-         <temperature>48.06</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>80.00</temp_alrm_hi>
-         <temp_alrm_lo>-10.00</temp_alrm_lo>
-         <temp_warn_hi>75.00</temp_warn_hi>
-         <temp_warn_lo>-5.00</temp_warn_lo>
-         <voltage>3.25</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.70</volt_alrm_hi>
-         <volt_alrm_lo>2.90</volt_alrm_lo>
-         <volt_warn_hi>3.59</volt_warn_hi>
-         <volt_warn_lo>3.00</volt_warn_lo>
-         <current>38.40</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>63.77</current_alrm_hi>
-         <current_alrm_lo>69.66</current_alrm_lo>
-         <current_warn_hi>94.48</current_warn_hi>
-         <current_warn_lo>38.97</current_warn_lo>
-         <tx_pwr>-0.36</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>3.29</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-8.21</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>2.29</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-7.01</tx_pwr_warn_lo>
-         <rx_pwr>-1.48</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>4.49</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-16.57</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>2.49</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
-         <temperature>48.06</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>80.00</temp_alrm_hi>
-         <temp_alrm_lo>-10.00</temp_alrm_lo>
-         <temp_warn_hi>75.00</temp_warn_hi>
-         <temp_warn_lo>-5.00</temp_warn_lo>
-         <voltage>3.25</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.70</volt_alrm_hi>
-         <volt_alrm_lo>2.90</volt_alrm_lo>
-         <volt_warn_hi>3.59</volt_warn_hi>
-         <volt_warn_lo>3.00</volt_warn_lo>
-         <current>38.27</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>63.77</current_alrm_hi>
-         <current_alrm_lo>69.66</current_alrm_lo>
-         <current_warn_hi>94.48</current_warn_hi>
-         <current_warn_lo>38.97</current_warn_lo>
-         <tx_pwr>-2.33</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>3.29</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-8.21</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>2.29</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-7.01</tx_pwr_warn_lo>
-         <rx_pwr>-4.27</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>4.49</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-16.57</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>2.49</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
-         <temperature>48.06</temperature>
-         <temp_flag> </temp_flag>
-         <temp_alrm_hi>80.00</temp_alrm_hi>
-         <temp_alrm_lo>-10.00</temp_alrm_lo>
-         <temp_warn_hi>75.00</temp_warn_hi>
-         <temp_warn_lo>-5.00</temp_warn_lo>
-         <voltage>3.25</voltage>
-         <volt_flag> </volt_flag>
-         <volt_alrm_hi>3.70</volt_alrm_hi>
-         <volt_alrm_lo>2.90</volt_alrm_lo>
-         <volt_warn_hi>3.59</volt_warn_hi>
-         <volt_warn_lo>3.00</volt_warn_lo>
-         <current>37.65</current>
-         <current_flag> </current_flag>
-         <current_alrm_hi>63.77</current_alrm_hi>
-         <current_alrm_lo>69.66</current_alrm_lo>
-         <current_warn_hi>94.48</current_warn_hi>
-         <current_warn_lo>38.97</current_warn_lo>
-         <tx_pwr>0.22</tx_pwr>
-         <tx_pwr_flag> </tx_pwr_flag>
-         <tx_pwr_alrm_hi>3.29</tx_pwr_alrm_hi>
-         <tx_pwr_alrm_lo>-8.21</tx_pwr_alrm_lo>
-         <tx_pwr_warn_hi>2.29</tx_pwr_warn_hi>
-         <tx_pwr_warn_lo>-7.01</tx_pwr_warn_lo>
-         <rx_pwr>-1.07</rx_pwr>
-         <rx_pwr_flag> </rx_pwr_flag>
-         <rx_pwr_alrm_hi>4.49</rx_pwr_alrm_hi>
-         <rx_pwr_alrm_lo>-16.57</rx_pwr_alrm_lo>
-         <rx_pwr_warn_hi>2.49</rx_pwr_warn_hi>
-         <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet2/5</interface>
-         <sfp>not present</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet2/6</interface>
-         <sfp>not present</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/1</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/2</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/3</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/4</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/5</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/6</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/7</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/8</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/9</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/10</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/11</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/12</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/13</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/14</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/15</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/16</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/17</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/18</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/19</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/20</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/21</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/22</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/23</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/24</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/25</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/26</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/27</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/28</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/29</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/30</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/31</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/32</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/33</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/34</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/35</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/36</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/37</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/38</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/39</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/40</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/41</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/42</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/43</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/44</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/45</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/46</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/47</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet101/1/48</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/1</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/2</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/3</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/4</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/5</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/6</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/7</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/8</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/9</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/10</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/11</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/12</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/13</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/14</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/15</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/16</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/17</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/18</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/19</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/20</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/21</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/22</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/23</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/24</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/25</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/26</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/27</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/28</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/29</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/30</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/31</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/32</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/33</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/34</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/35</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/36</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/37</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/38</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/39</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/40</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/41</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/42</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/43</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/44</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/45</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/46</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/47</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-        <ROW_interface>
-         <interface>Ethernet102/1/48</interface>
-         <sfp>not applicable</sfp>
-        </ROW_interface>
-       </TABLE_interface>
-      </__readonly__>
-     </details>
-    </transceiver>
-   </interface>
-  </show>
- </data>
-</rpc-reply>
+<data>
+ <show>
+  <interface>
+   <transceiver>
+    <details>
+     <__readonly__>
+      <TABLE_interface>
+       <ROW_interface>
+        <interface>Ethernet1/1</interface>
+        <sfp>present</sfp>
+        <type>Fabric Extender Transceiver</type>
+        <name>CISCO-FINISAR   </name>
+        <partnum>FTLX8570D3BCL-C2</partnum>
+        <rev>A   </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_625>10</len_625>
+        <len_50_OM3>100</len_50_OM3>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>32.16</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>75.00</temp_alrm_hi>
+        <temp_alrm_lo>5.00</temp_alrm_lo>
+        <temp_warn_hi>70.00</temp_warn_hi>
+        <temp_warn_lo>10.00</temp_warn_lo>
+        <voltage>3.29</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>7.68</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>11.80</current_alrm_hi>
+        <current_alrm_lo>4.00</current_alrm_lo>
+        <current_warn_hi>10.80</current_warn_hi>
+        <current_warn_lo>5.00</current_warn_lo>
+        <tx_pwr>-2.79</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>2.69</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
+        <rx_pwr>-3.13</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>2.99</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/2</interface>
+        <sfp>present</sfp>
+        <type>Fabric Extender Transceiver</type>
+        <name>CISCO-FINISAR   </name>
+        <partnum>FTLX8570D3BCL-C2</partnum>
+        <rev>A   </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_625>10</len_625>
+        <len_50_OM3>100</len_50_OM3>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>32.49</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>75.00</temp_alrm_hi>
+        <temp_alrm_lo>5.00</temp_alrm_lo>
+        <temp_warn_hi>70.00</temp_warn_hi>
+        <temp_warn_lo>10.00</temp_warn_lo>
+        <voltage>3.30</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>7.67</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>11.80</current_alrm_hi>
+        <current_alrm_lo>4.00</current_alrm_lo>
+        <current_warn_hi>10.80</current_warn_hi>
+        <current_warn_lo>5.00</current_warn_lo>
+        <tx_pwr>-2.44</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>2.69</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
+        <rx_pwr>-2.35</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>2.99</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/3</interface>
+        <sfp>present</sfp>
+        <type>Fabric Extender Transceiver</type>
+        <name>CISCO-FINISAR   </name>
+        <partnum>FTLX8570D3BCL-C2</partnum>
+        <rev>A   </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_625>10</len_625>
+        <len_50_OM3>100</len_50_OM3>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>33.01</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>75.00</temp_alrm_hi>
+        <temp_alrm_lo>5.00</temp_alrm_lo>
+        <temp_warn_hi>70.00</temp_warn_hi>
+        <temp_warn_lo>10.00</temp_warn_lo>
+        <voltage>3.30</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>7.49</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>11.80</current_alrm_hi>
+        <current_alrm_lo>4.00</current_alrm_lo>
+        <current_warn_hi>10.80</current_warn_hi>
+        <current_warn_lo>5.00</current_warn_lo>
+        <tx_pwr>-2.62</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>2.69</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
+        <rx_pwr>-2.33</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>2.99</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/4</interface>
+        <sfp>present</sfp>
+        <type>Fabric Extender Transceiver</type>
+        <name>CISCO-FINISAR   </name>
+        <partnum>FTLX8570D3BCL-C2</partnum>
+        <rev>A   </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_625>10</len_625>
+        <len_50_OM3>100</len_50_OM3>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>31.52</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>75.00</temp_alrm_hi>
+        <temp_alrm_lo>5.00</temp_alrm_lo>
+        <temp_warn_hi>70.00</temp_warn_hi>
+        <temp_warn_lo>10.00</temp_warn_lo>
+        <voltage>3.30</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>7.79</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>11.80</current_alrm_hi>
+        <current_alrm_lo>4.00</current_alrm_lo>
+        <current_warn_hi>10.80</current_warn_hi>
+        <current_warn_lo>5.00</current_warn_lo>
+        <tx_pwr>-2.51</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>2.69</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
+        <rx_pwr>-2.16</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>2.99</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/5</interface>
+        <sfp>present</sfp>
+        <type>Fabric Extender Transceiver</type>
+        <name>CISCO-FINISAR   </name>
+        <partnum>FTLX8570D3BCL-C2</partnum>
+        <rev>A   </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_625>10</len_625>
+        <len_50_OM3>100</len_50_OM3>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>33.86</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>75.00</temp_alrm_hi>
+        <temp_alrm_lo>5.00</temp_alrm_lo>
+        <temp_warn_hi>70.00</temp_warn_hi>
+        <temp_warn_lo>10.00</temp_warn_lo>
+        <voltage>3.29</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>7.48</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>11.80</current_alrm_hi>
+        <current_alrm_lo>4.00</current_alrm_lo>
+        <current_warn_hi>10.80</current_warn_hi>
+        <current_warn_lo>5.00</current_warn_lo>
+        <tx_pwr>-3.02</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>2.69</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
+        <rx_pwr>-2.26</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>2.99</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/6</interface>
+        <sfp>present</sfp>
+        <type>Fabric Extender Transceiver</type>
+        <name>CISCO-FINISAR   </name>
+        <partnum>FTLX8570D3BCL-C2</partnum>
+        <rev>A   </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_625>10</len_625>
+        <len_50_OM3>100</len_50_OM3>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>33.65</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>75.00</temp_alrm_hi>
+        <temp_alrm_lo>5.00</temp_alrm_lo>
+        <temp_warn_hi>70.00</temp_warn_hi>
+        <temp_warn_lo>10.00</temp_warn_lo>
+        <voltage>3.30</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>7.69</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>11.80</current_alrm_hi>
+        <current_alrm_lo>4.00</current_alrm_lo>
+        <current_warn_hi>10.80</current_warn_hi>
+        <current_warn_lo>5.00</current_warn_lo>
+        <tx_pwr>-2.27</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>2.69</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
+        <rx_pwr>-2.13</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>2.99</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/7</interface>
+        <sfp>present</sfp>
+        <type>Fabric Extender Transceiver</type>
+        <name>CISCO-FINISAR   </name>
+        <partnum>FTLX8570D3BCL-C2</partnum>
+        <rev>A   </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_625>10</len_625>
+        <len_50_OM3>100</len_50_OM3>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>31.25</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>75.00</temp_alrm_hi>
+        <temp_alrm_lo>5.00</temp_alrm_lo>
+        <temp_warn_hi>70.00</temp_warn_hi>
+        <temp_warn_lo>10.00</temp_warn_lo>
+        <voltage>3.29</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>7.58</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>11.80</current_alrm_hi>
+        <current_alrm_lo>4.00</current_alrm_lo>
+        <current_warn_hi>10.80</current_warn_hi>
+        <current_warn_lo>5.00</current_warn_lo>
+        <tx_pwr>-3.03</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>2.69</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
+        <rx_pwr>-2.21</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>2.99</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/8</interface>
+        <sfp>present</sfp>
+        <type>Fabric Extender Transceiver</type>
+        <name>CISCO-FINISAR   </name>
+        <partnum>FTLX8570D3BCL-C2</partnum>
+        <rev>A   </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_625>10</len_625>
+        <len_50_OM3>100</len_50_OM3>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>29.81</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>75.00</temp_alrm_hi>
+        <temp_alrm_lo>5.00</temp_alrm_lo>
+        <temp_warn_hi>70.00</temp_warn_hi>
+        <temp_warn_lo>10.00</temp_warn_lo>
+        <voltage>3.30</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>7.46</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>11.80</current_alrm_hi>
+        <current_alrm_lo>4.00</current_alrm_lo>
+        <current_warn_hi>10.80</current_warn_hi>
+        <current_warn_lo>5.00</current_warn_lo>
+        <tx_pwr>-2.36</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>2.69</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
+        <rx_pwr>-2.47</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>2.99</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/9</interface>
+        <sfp>present</sfp>
+        <type/>
+        <name>FCI Electronics </name>
+        <partnum>10110818-4030HLF</partnum>
+        <rev>G   </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_cu>3</len_cu>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/10</interface>
+        <sfp>present</sfp>
+        <type/>
+        <name>FCI Electronics </name>
+        <partnum>10110818-4030HLF</partnum>
+        <rev>G   </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_cu>3</len_cu>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/11</interface>
+        <sfp>present</sfp>
+        <type/>
+        <name>FCI Electronics </name>
+        <partnum>10110818-4030HLF</partnum>
+        <rev>G   </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_cu>3</len_cu>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/12</interface>
+        <sfp>present</sfp>
+        <type/>
+        <name>FCI Electronics </name>
+        <partnum>10110818-4030HLF</partnum>
+        <rev>G   </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_cu>3</len_cu>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/13</interface>
+        <sfp>not present</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/14</interface>
+        <sfp>not present</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/15</interface>
+        <sfp>present</sfp>
+        <type>SFP-1000base-LH</type>
+        <name>CISCO           </name>
+        <partnum>RTXM191-404-C88 </partnum>
+        <rev>1.0 </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>1300</nom_bitrate>
+        <len_9>10</len_9>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>26.65</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>89.00</temp_alrm_hi>
+        <temp_alrm_lo>-9.00</temp_alrm_lo>
+        <temp_warn_hi>85.00</temp_warn_hi>
+        <temp_warn_lo>-5.00</temp_warn_lo>
+        <voltage>3.29</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.59</volt_alrm_hi>
+        <volt_alrm_lo>3.00</volt_alrm_lo>
+        <volt_warn_hi>3.50</volt_warn_hi>
+        <volt_warn_lo>3.09</volt_warn_lo>
+        <current>8.52</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>60.00</current_alrm_hi>
+        <current_alrm_lo>0.50</current_alrm_lo>
+        <current_warn_hi>50.00</current_warn_hi>
+        <current_warn_lo>1.00</current_warn_lo>
+        <tx_pwr>-6.09</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>0.99</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-13.56</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>-3.00</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-9.50</tx_pwr_warn_lo>
+        <rx_pwr_flag>--</rx_pwr_flag>
+        <rx_pwr_alrm_hi>0.99</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-23.01</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>-3.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-19.20</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/16</interface>
+        <sfp>not present</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/17</interface>
+        <sfp>not present</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/18</interface>
+        <sfp>not present</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/19</interface>
+        <sfp>not present</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/20</interface>
+        <sfp>not present</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/21</interface>
+        <sfp>not present</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/22</interface>
+        <sfp>present</sfp>
+        <type>SFP-1000base-LH</type>
+        <name>CISCO           </name>
+        <partnum>SFCT-5716PZ-CS1 </partnum>
+        <rev>002 </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>1300</nom_bitrate>
+        <len_9>10</len_9>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>27.90</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>90.00</temp_alrm_hi>
+        <temp_alrm_lo>-10.00</temp_alrm_lo>
+        <temp_warn_hi>85.00</temp_warn_hi>
+        <temp_warn_lo>-5.00</temp_warn_lo>
+        <voltage>3.32</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.47</volt_warn_hi>
+        <volt_warn_lo>3.14</volt_warn_lo>
+        <current>12.64</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>65.09</current_alrm_hi>
+        <current_alrm_lo>2.40</current_alrm_lo>
+        <current_warn_hi>61.00</current_warn_hi>
+        <current_warn_lo>3.00</current_warn_lo>
+        <tx_pwr>-7.12</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>0.00</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-13.01</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>-3.00</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-9.50</tx_pwr_warn_lo>
+        <rx_pwr>-15.68</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>0.00</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-23.01</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>-3.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-19.20</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/23</interface>
+        <sfp>present</sfp>
+        <type>10Gbase-LR</type>
+        <name>CISCO-FINISAR   </name>
+        <partnum>FTLX1474D3BCL-C3</partnum>
+        <rev>A   </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_9>10</len_9>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>28.08</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>75.00</temp_alrm_hi>
+        <temp_alrm_lo>-5.00</temp_alrm_lo>
+        <temp_warn_hi>70.00</temp_warn_hi>
+        <temp_warn_lo>0.00</temp_warn_lo>
+        <voltage>3.30</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>43.32</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>70.00</current_alrm_hi>
+        <current_alrm_lo>1.00</current_alrm_lo>
+        <current_warn_hi>68.00</current_warn_hi>
+        <current_warn_lo>2.00</current_warn_lo>
+        <tx_pwr>-2.42</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>3.49</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-12.21</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>0.49</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-8.21</tx_pwr_warn_lo>
+        <rx_pwr>-4.19</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>3.49</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-18.53</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>0.49</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/24</interface>
+        <sfp>present</sfp>
+        <type>10Gbase-LR</type>
+        <name>CISCO-FINISAR   </name>
+        <partnum>FTLX1474D3BCL-C3</partnum>
+        <rev>A   </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_9>10</len_9>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>29.52</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>75.00</temp_alrm_hi>
+        <temp_alrm_lo>-5.00</temp_alrm_lo>
+        <temp_warn_hi>70.00</temp_warn_hi>
+        <temp_warn_lo>0.00</temp_warn_lo>
+        <voltage>3.31</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>36.36</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>70.00</current_alrm_hi>
+        <current_alrm_lo>1.00</current_alrm_lo>
+        <current_warn_hi>68.00</current_warn_hi>
+        <current_warn_lo>2.00</current_warn_lo>
+        <tx_pwr>-2.14</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>3.49</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-12.21</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>0.49</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-8.21</tx_pwr_warn_lo>
+        <rx_pwr>-7.49</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>3.49</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-18.53</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>0.49</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/25</interface>
+        <sfp>present</sfp>
+        <type>10Gbase-LR</type>
+        <name>CISCO-FINISAR   </name>
+        <partnum>FTLX1474D3BCL-C3</partnum>
+        <rev>A   </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_9>10</len_9>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>33.35</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>75.00</temp_alrm_hi>
+        <temp_alrm_lo>-5.00</temp_alrm_lo>
+        <temp_warn_hi>70.00</temp_warn_hi>
+        <temp_warn_lo>0.00</temp_warn_lo>
+        <voltage>3.30</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>41.47</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>70.00</current_alrm_hi>
+        <current_alrm_lo>1.00</current_alrm_lo>
+        <current_warn_hi>68.00</current_warn_hi>
+        <current_warn_lo>2.00</current_warn_lo>
+        <tx_pwr>-2.54</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>3.49</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-12.21</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>0.49</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-8.21</tx_pwr_warn_lo>
+        <rx_pwr>-1.33</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>3.49</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-18.53</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>0.49</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/26</interface>
+        <sfp>present</sfp>
+        <type>SFP-1000base-LH</type>
+        <name>CISCO           </name>
+        <partnum>SFCT-5716PZ     </partnum>
+        <rev>001 </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>1300</nom_bitrate>
+        <len_9>10</len_9>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>30.39</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>90.00</temp_alrm_hi>
+        <temp_alrm_lo>-10.00</temp_alrm_lo>
+        <temp_warn_hi>85.00</temp_warn_hi>
+        <temp_warn_lo>-5.00</temp_warn_lo>
+        <voltage>3.32</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.47</volt_warn_hi>
+        <volt_warn_lo>3.14</volt_warn_lo>
+        <current>16.32</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>65.09</current_alrm_hi>
+        <current_alrm_lo>2.40</current_alrm_lo>
+        <current_warn_hi>61.00</current_warn_hi>
+        <current_warn_lo>3.00</current_warn_lo>
+        <tx_pwr>-7.23</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>0.00</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-13.01</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>-3.00</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-9.50</tx_pwr_warn_lo>
+        <rx_pwr>-7.30</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>0.00</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-23.01</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>-3.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-19.20</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/27</interface>
+        <sfp>not present</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/28</interface>
+        <sfp>present</sfp>
+        <type>SFP-1000base-LH</type>
+        <name>CISCO           </name>
+        <partnum>RTXM191-404-C88 </partnum>
+        <rev>1.0 </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>1300</nom_bitrate>
+        <len_9>10</len_9>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>29.10</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>89.00</temp_alrm_hi>
+        <temp_alrm_lo>-9.00</temp_alrm_lo>
+        <temp_warn_hi>85.00</temp_warn_hi>
+        <temp_warn_lo>-5.00</temp_warn_lo>
+        <voltage>3.29</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.59</volt_alrm_hi>
+        <volt_alrm_lo>3.00</volt_alrm_lo>
+        <volt_warn_hi>3.50</volt_warn_hi>
+        <volt_warn_lo>3.09</volt_warn_lo>
+        <current>7.95</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>60.00</current_alrm_hi>
+        <current_alrm_lo>0.50</current_alrm_lo>
+        <current_warn_hi>50.00</current_warn_hi>
+        <current_warn_lo>1.00</current_warn_lo>
+        <tx_pwr>-5.52</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>0.99</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-13.56</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>-3.00</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-9.50</tx_pwr_warn_lo>
+        <rx_pwr>-6.17</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>0.99</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-23.01</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>-3.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-19.20</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/29</interface>
+        <sfp>present</sfp>
+        <type>SFP-1000base-LH</type>
+        <name>CISCO           </name>
+        <partnum>RTXM191-404-C88 </partnum>
+        <rev>1.0 </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>1300</nom_bitrate>
+        <len_9>10</len_9>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>30.57</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>89.00</temp_alrm_hi>
+        <temp_alrm_lo>-9.00</temp_alrm_lo>
+        <temp_warn_hi>85.00</temp_warn_hi>
+        <temp_warn_lo>-5.00</temp_warn_lo>
+        <voltage>3.28</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.59</volt_alrm_hi>
+        <volt_alrm_lo>3.00</volt_alrm_lo>
+        <volt_warn_hi>3.50</volt_warn_hi>
+        <volt_warn_lo>3.09</volt_warn_lo>
+        <current>8.52</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>60.00</current_alrm_hi>
+        <current_alrm_lo>0.50</current_alrm_lo>
+        <current_warn_hi>50.00</current_warn_hi>
+        <current_warn_lo>1.00</current_warn_lo>
+        <tx_pwr>-5.05</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>0.99</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-13.56</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>-3.00</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-9.50</tx_pwr_warn_lo>
+        <rx_pwr>-12.14</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>0.99</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-23.01</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>-3.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-19.20</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/30</interface>
+        <sfp>not present</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/31</interface>
+        <sfp>present</sfp>
+        <type>10Gbase-SR</type>
+        <name>CISCO-AVAGO     </name>
+        <partnum>SFBR-709SMZ-CS2 </partnum>
+        <rev>G4.1</rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_50>82</len_50>
+        <len_625>26</len_625>
+        <len_cu>40</len_cu>
+        <len_50_OM3>300</len_50_OM3>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>31.37</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>75.00</temp_alrm_hi>
+        <temp_alrm_lo>-5.00</temp_alrm_lo>
+        <temp_warn_hi>70.00</temp_warn_hi>
+        <temp_warn_lo>0.00</temp_warn_lo>
+        <voltage>3.29</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>7.35</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>10.50</current_alrm_hi>
+        <current_alrm_lo>2.50</current_alrm_lo>
+        <current_warn_hi>10.50</current_warn_hi>
+        <current_warn_lo>2.50</current_warn_lo>
+        <tx_pwr>-2.31</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>1.69</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
+        <rx_pwr>-3.36</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>1.99</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/32</interface>
+        <sfp>present</sfp>
+        <type>10Gbase-SR</type>
+        <name>CISCO-AVAGO     </name>
+        <partnum>SFBR-709SMZ-CS2 </partnum>
+        <rev>G4.1</rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_50>82</len_50>
+        <len_625>26</len_625>
+        <len_cu>40</len_cu>
+        <len_50_OM3>300</len_50_OM3>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>31.93</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>75.00</temp_alrm_hi>
+        <temp_alrm_lo>-5.00</temp_alrm_lo>
+        <temp_warn_hi>70.00</temp_warn_hi>
+        <temp_warn_lo>0.00</temp_warn_lo>
+        <voltage>3.30</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>7.14</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>10.50</current_alrm_hi>
+        <current_alrm_lo>2.50</current_alrm_lo>
+        <current_warn_hi>10.50</current_warn_hi>
+        <current_warn_lo>2.50</current_warn_lo>
+        <tx_pwr>-2.26</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>1.69</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
+        <rx_pwr>-3.78</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>1.99</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/33</interface>
+        <sfp>present</sfp>
+        <type>10Gbase-SR</type>
+        <name>CISCO-FINISAR   </name>
+        <partnum>FTLX8571D3BCL-CS</partnum>
+        <rev>E   </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_50>82</len_50>
+        <len_625>26</len_625>
+        <len_50_OM3>300</len_50_OM3>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>35.35</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>75.00</temp_alrm_hi>
+        <temp_alrm_lo>-5.00</temp_alrm_lo>
+        <temp_warn_hi>70.00</temp_warn_hi>
+        <temp_warn_lo>0.00</temp_warn_lo>
+        <voltage>3.28</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>8.01</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>11.80</current_alrm_hi>
+        <current_alrm_lo>4.00</current_alrm_lo>
+        <current_warn_hi>10.80</current_warn_hi>
+        <current_warn_lo>5.00</current_warn_lo>
+        <tx_pwr>-2.21</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>1.69</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
+        <rx_pwr>-2.15</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>1.99</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/34</interface>
+        <sfp>present</sfp>
+        <type>SFP-1000base-LH</type>
+        <name>CISCO           </name>
+        <partnum>SFCT-5716PZ-CS1 </partnum>
+        <rev>002 </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>1300</nom_bitrate>
+        <len_9>10</len_9>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>30.72</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>90.00</temp_alrm_hi>
+        <temp_alrm_lo>-10.00</temp_alrm_lo>
+        <temp_warn_hi>85.00</temp_warn_hi>
+        <temp_warn_lo>-5.00</temp_warn_lo>
+        <voltage>3.31</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.47</volt_warn_hi>
+        <volt_warn_lo>3.14</volt_warn_lo>
+        <current>13.33</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>65.09</current_alrm_hi>
+        <current_alrm_lo>2.40</current_alrm_lo>
+        <current_warn_hi>61.00</current_warn_hi>
+        <current_warn_lo>3.00</current_warn_lo>
+        <tx_pwr>-6.86</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>0.00</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-13.01</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>-3.00</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-9.50</tx_pwr_warn_lo>
+        <rx_pwr_flag>--</rx_pwr_flag>
+        <rx_pwr_alrm_hi>0.00</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-23.01</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>-3.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-19.20</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/35</interface>
+        <sfp>present</sfp>
+        <type>10Gbase-SR</type>
+        <name>CISCO-OPLINK    </name>
+        <partnum>TPP4XGDS0CCISE3G</partnum>
+        <rev>01  </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_50>82</len_50>
+        <len_625>26</len_625>
+        <len_cu>40</len_cu>
+        <len_50_OM3>300</len_50_OM3>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>32.55</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>75.00</temp_alrm_hi>
+        <temp_alrm_lo>-5.00</temp_alrm_lo>
+        <temp_warn_hi>70.00</temp_warn_hi>
+        <temp_warn_lo>0.00</temp_warn_lo>
+        <voltage>3.26</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>6.80</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>12.00</current_alrm_hi>
+        <current_alrm_lo>0.50</current_alrm_lo>
+        <current_warn_hi>11.50</current_warn_hi>
+        <current_warn_lo>1.00</current_warn_lo>
+        <tx_pwr>-2.57</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>1.99</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>-1.00</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
+        <rx_pwr_flag>--</rx_pwr_flag>
+        <rx_pwr_alrm_hi>1.99</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/36</interface>
+        <sfp>present</sfp>
+        <type>10Gbase-SR</type>
+        <name>CISCO-AVAGO     </name>
+        <partnum>SFBR-709SMZ-CS2 </partnum>
+        <rev>G4.1</rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_50>82</len_50>
+        <len_625>26</len_625>
+        <len_cu>40</len_cu>
+        <len_50_OM3>300</len_50_OM3>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>31.82</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>75.00</temp_alrm_hi>
+        <temp_alrm_lo>-5.00</temp_alrm_lo>
+        <temp_warn_hi>70.00</temp_warn_hi>
+        <temp_warn_lo>0.00</temp_warn_lo>
+        <voltage>3.29</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>5.57</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>10.50</current_alrm_hi>
+        <current_alrm_lo>2.50</current_alrm_lo>
+        <current_warn_hi>10.50</current_warn_hi>
+        <current_warn_lo>2.50</current_warn_lo>
+        <tx_pwr>-2.27</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>1.69</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-11.30</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>-1.30</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-7.30</tx_pwr_warn_lo>
+        <rx_pwr_flag>--</rx_pwr_flag>
+        <rx_pwr_alrm_hi>1.99</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-13.97</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>-1.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-9.91</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/37</interface>
+        <sfp>present</sfp>
+        <type>10Gbase-LR</type>
+        <name>CISCO-AVAGO     </name>
+        <partnum>SFCT-709SMZ-CS1 </partnum>
+        <rev>G2.1</rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_9>10</len_9>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>32.24</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>75.00</temp_alrm_hi>
+        <temp_alrm_lo>-5.00</temp_alrm_lo>
+        <temp_warn_hi>70.00</temp_warn_hi>
+        <temp_warn_lo>0.00</temp_warn_lo>
+        <voltage>3.29</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>24.50</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>80.00</current_alrm_hi>
+        <current_alrm_lo>8.00</current_alrm_lo>
+        <current_warn_hi>70.00</current_warn_hi>
+        <current_warn_lo>10.00</current_warn_lo>
+        <tx_pwr>-1.36</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>3.49</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-12.21</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>0.49</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-8.21</tx_pwr_warn_lo>
+        <rx_pwr>-3.24</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>3.49</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-18.53</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>0.49</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/38</interface>
+        <sfp>not present</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/39</interface>
+        <sfp>present</sfp>
+        <type>SFP-1000base-LH</type>
+        <name>CISCO           </name>
+        <partnum>SFCT-5716PZ     </partnum>
+        <rev>001 </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>1300</nom_bitrate>
+        <len_9>10</len_9>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>31.10</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>90.00</temp_alrm_hi>
+        <temp_alrm_lo>-10.00</temp_alrm_lo>
+        <temp_warn_hi>85.00</temp_warn_hi>
+        <temp_warn_lo>-5.00</temp_warn_lo>
+        <voltage>3.29</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.47</volt_warn_hi>
+        <volt_warn_lo>3.14</volt_warn_lo>
+        <current>15.32</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>65.09</current_alrm_hi>
+        <current_alrm_lo>2.40</current_alrm_lo>
+        <current_warn_hi>61.00</current_warn_hi>
+        <current_warn_lo>3.00</current_warn_lo>
+        <tx_pwr>-7.14</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>0.00</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-13.01</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>-3.00</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-9.50</tx_pwr_warn_lo>
+        <rx_pwr>-6.81</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>0.00</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-23.01</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>-3.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-19.20</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/40</interface>
+        <sfp>present</sfp>
+        <type>10Gbase-LR</type>
+        <name>CISCO-AVAGO     </name>
+        <partnum>SFCT-739SMZ-CS1 </partnum>
+        <rev>G3.1</rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_9>10</len_9>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>35.76</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>75.00</temp_alrm_hi>
+        <temp_alrm_lo>-5.00</temp_alrm_lo>
+        <temp_warn_hi>70.00</temp_warn_hi>
+        <temp_warn_lo>0.00</temp_warn_lo>
+        <voltage>3.29</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>24.16</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>80.00</current_alrm_hi>
+        <current_alrm_lo>8.00</current_alrm_lo>
+        <current_warn_hi>70.00</current_warn_hi>
+        <current_warn_lo>10.00</current_warn_lo>
+        <tx_pwr>-1.38</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>3.49</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-12.21</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>0.49</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-8.21</tx_pwr_warn_lo>
+        <rx_pwr>-2.89</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>3.49</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-18.53</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>0.49</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/41</interface>
+        <sfp>present</sfp>
+        <type>10Gbase-LR</type>
+        <name>CISCO-FINISAR   </name>
+        <partnum>FTLX1474D3BCL-C3</partnum>
+        <rev>A   </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_9>10</len_9>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>36.72</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>75.00</temp_alrm_hi>
+        <temp_alrm_lo>-5.00</temp_alrm_lo>
+        <temp_warn_hi>70.00</temp_warn_hi>
+        <temp_warn_lo>0.00</temp_warn_lo>
+        <voltage>3.29</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>53.60</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>70.00</current_alrm_hi>
+        <current_alrm_lo>1.00</current_alrm_lo>
+        <current_warn_hi>68.00</current_warn_hi>
+        <current_warn_lo>2.00</current_warn_lo>
+        <tx_pwr>-2.45</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>3.49</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-12.21</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>0.49</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-8.21</tx_pwr_warn_lo>
+        <rx_pwr>-4.49</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>3.49</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-18.53</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>0.49</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/42</interface>
+        <sfp>present</sfp>
+        <type>10Gbase-LR</type>
+        <name>Arista Networks </name>
+        <partnum>SFP-10G-LR-AR   </partnum>
+        <rev>B4  </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_9>10</len_9>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>44.05</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>90.00</temp_alrm_hi>
+        <temp_alrm_lo>-10.00</temp_alrm_lo>
+        <temp_warn_hi>85.00</temp_warn_hi>
+        <temp_warn_lo>-5.00</temp_warn_lo>
+        <voltage>3.27</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>41.56</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>100.00</current_alrm_hi>
+        <current_alrm_lo>2.00</current_alrm_lo>
+        <current_warn_hi>80.00</current_warn_hi>
+        <current_warn_lo>4.00</current_warn_lo>
+        <tx_pwr>-2.32</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>1.29</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-9.17</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>0.49</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-8.21</tx_pwr_warn_lo>
+        <rx_pwr>-2.20</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>3.01</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-18.23</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>0.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-15.08</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/43</interface>
+        <sfp>present</sfp>
+        <type>10Gbase-LR</type>
+        <name>Arista Networks </name>
+        <partnum>SFP-10G-LR-AR   </partnum>
+        <rev>B4  </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_9>10</len_9>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>42.26</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>90.00</temp_alrm_hi>
+        <temp_alrm_lo>-10.00</temp_alrm_lo>
+        <temp_warn_hi>85.00</temp_warn_hi>
+        <temp_warn_lo>-5.00</temp_warn_lo>
+        <voltage>3.25</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>42.23</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>100.00</current_alrm_hi>
+        <current_alrm_lo>2.00</current_alrm_lo>
+        <current_warn_hi>80.00</current_warn_hi>
+        <current_warn_lo>4.00</current_warn_lo>
+        <tx_pwr>-2.32</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>1.29</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-9.17</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>0.49</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-8.21</tx_pwr_warn_lo>
+        <rx_pwr>-1.61</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>3.01</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-18.23</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>0.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-15.08</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/44</interface>
+        <sfp>present</sfp>
+        <type>10Gbase-LR</type>
+        <name>CISCO-FINISAR   </name>
+        <partnum>FTLX1474D3BCL-C3</partnum>
+        <rev>A   </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_9>10</len_9>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>39.22</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>75.00</temp_alrm_hi>
+        <temp_alrm_lo>-5.00</temp_alrm_lo>
+        <temp_warn_hi>70.00</temp_warn_hi>
+        <temp_warn_lo>0.00</temp_warn_lo>
+        <voltage>3.30</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>41.28</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>70.00</current_alrm_hi>
+        <current_alrm_lo>1.00</current_alrm_lo>
+        <current_warn_hi>68.00</current_warn_hi>
+        <current_warn_lo>2.00</current_warn_lo>
+        <tx_pwr>-1.87</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>3.49</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-12.21</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>0.49</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-8.21</tx_pwr_warn_lo>
+        <rx_pwr>-4.03</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>3.49</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-18.53</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>0.49</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/45</interface>
+        <sfp>present</sfp>
+        <type>10Gbase-LR</type>
+        <name>Arista Networks </name>
+        <partnum>SFP-10G-LR-AR   </partnum>
+        <rev>B4  </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_9>10</len_9>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>38.99</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>90.00</temp_alrm_hi>
+        <temp_alrm_lo>-10.00</temp_alrm_lo>
+        <temp_warn_hi>85.00</temp_warn_hi>
+        <temp_warn_lo>-5.00</temp_warn_lo>
+        <voltage>3.26</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.46</volt_warn_hi>
+        <volt_warn_lo>3.13</volt_warn_lo>
+        <current>32.55</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>100.00</current_alrm_hi>
+        <current_alrm_lo>2.00</current_alrm_lo>
+        <current_warn_hi>80.00</current_warn_hi>
+        <current_warn_lo>4.00</current_warn_lo>
+        <tx_pwr>-0.99</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>1.29</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-9.17</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>0.49</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-8.21</tx_pwr_warn_lo>
+        <rx_pwr>-10.36</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>3.01</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-18.23</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>0.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-15.08</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/46</interface>
+        <sfp>present</sfp>
+        <type>SFP-1000base-LH</type>
+        <name>CISCO           </name>
+        <partnum>SFCT-5716PZ     </partnum>
+        <rev>001 </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>1300</nom_bitrate>
+        <len_9>10</len_9>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>4</ciscoid_1>
+        <temperature>34.28</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>90.00</temp_alrm_hi>
+        <temp_alrm_lo>-10.00</temp_alrm_lo>
+        <temp_warn_hi>85.00</temp_warn_hi>
+        <temp_warn_lo>-5.00</temp_warn_lo>
+        <voltage>3.32</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.63</volt_alrm_hi>
+        <volt_alrm_lo>2.97</volt_alrm_lo>
+        <volt_warn_hi>3.47</volt_warn_hi>
+        <volt_warn_lo>3.14</volt_warn_lo>
+        <current>14.86</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>65.09</current_alrm_hi>
+        <current_alrm_lo>2.40</current_alrm_lo>
+        <current_warn_hi>61.00</current_warn_hi>
+        <current_warn_lo>3.00</current_warn_lo>
+        <tx_pwr>-6.77</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>0.00</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-13.01</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>-3.00</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-9.50</tx_pwr_warn_lo>
+        <rx_pwr>-10.75</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>0.00</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-23.01</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>-3.00</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-19.20</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/47</interface>
+        <sfp>not present</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet1/48</interface>
+        <sfp>not present</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet2/1</interface>
+        <sfp>present</sfp>
+        <type>QSFP-H40G-AOC1M</type>
+        <name>CISCO           </name>
+        <partnum>FCBN410QE2C01-C1</partnum>
+        <rev>D </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_cu>1</len_cu>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>16</ciscoid_1>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet2/2</interface>
+        <sfp>present</sfp>
+        <type>QSFP-H40G-AOC1M</type>
+        <name>CISCO           </name>
+        <partnum>FCBN410QE2C01-C1</partnum>
+        <rev>D </rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_cu>1</len_cu>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>16</ciscoid_1>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet2/3</interface>
+        <sfp>present</sfp>
+        <type/>
+        <name>Arista Networks </name>
+        <partnum>QSFP-40G-LR4-AR </partnum>
+        <rev>--</rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_9>10</len_9>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>196</ciscoid_1>
+        <temperature>48.70</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>80.00</temp_alrm_hi>
+        <temp_alrm_lo>-10.00</temp_alrm_lo>
+        <temp_warn_hi>75.00</temp_warn_hi>
+        <temp_warn_lo>-5.00</temp_warn_lo>
+        <voltage>3.25</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.70</volt_alrm_hi>
+        <volt_alrm_lo>2.90</volt_alrm_lo>
+        <volt_warn_hi>3.59</volt_warn_hi>
+        <volt_warn_lo>3.00</volt_warn_lo>
+        <current>38.18</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>63.77</current_alrm_hi>
+        <current_alrm_lo>69.66</current_alrm_lo>
+        <current_warn_hi>94.48</current_warn_hi>
+        <current_warn_lo>38.97</current_warn_lo>
+        <tx_pwr>-0.39</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>3.29</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-8.21</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>2.29</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-7.01</tx_pwr_warn_lo>
+        <rx_pwr>-1.51</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>4.49</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-16.57</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>2.49</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
+        <temperature>48.75</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>80.00</temp_alrm_hi>
+        <temp_alrm_lo>-10.00</temp_alrm_lo>
+        <temp_warn_hi>75.00</temp_warn_hi>
+        <temp_warn_lo>-5.00</temp_warn_lo>
+        <voltage>3.25</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.70</volt_alrm_hi>
+        <volt_alrm_lo>2.90</volt_alrm_lo>
+        <volt_warn_hi>3.59</volt_warn_hi>
+        <volt_warn_lo>3.00</volt_warn_lo>
+        <current>36.36</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>63.77</current_alrm_hi>
+        <current_alrm_lo>69.66</current_alrm_lo>
+        <current_warn_hi>94.48</current_warn_hi>
+        <current_warn_lo>38.97</current_warn_lo>
+        <tx_pwr>0.81</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>3.29</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-8.21</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>2.29</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-7.01</tx_pwr_warn_lo>
+        <rx_pwr>-2.50</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>4.49</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-16.57</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>2.49</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
+        <temperature>48.70</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>80.00</temp_alrm_hi>
+        <temp_alrm_lo>-10.00</temp_alrm_lo>
+        <temp_warn_hi>75.00</temp_warn_hi>
+        <temp_warn_lo>-5.00</temp_warn_lo>
+        <voltage>3.25</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.70</volt_alrm_hi>
+        <volt_alrm_lo>2.90</volt_alrm_lo>
+        <volt_warn_hi>3.59</volt_warn_hi>
+        <volt_warn_lo>3.00</volt_warn_lo>
+        <current>36.90</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>63.77</current_alrm_hi>
+        <current_alrm_lo>69.66</current_alrm_lo>
+        <current_warn_hi>94.48</current_warn_hi>
+        <current_warn_lo>38.97</current_warn_lo>
+        <tx_pwr>-0.07</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>3.29</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-8.21</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>2.29</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-7.01</tx_pwr_warn_lo>
+        <rx_pwr>-1.19</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>4.49</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-16.57</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>2.49</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
+        <temperature>48.70</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>80.00</temp_alrm_hi>
+        <temp_alrm_lo>-10.00</temp_alrm_lo>
+        <temp_warn_hi>75.00</temp_warn_hi>
+        <temp_warn_lo>-5.00</temp_warn_lo>
+        <voltage>3.25</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.70</volt_alrm_hi>
+        <volt_alrm_lo>2.90</volt_alrm_lo>
+        <volt_warn_hi>3.59</volt_warn_hi>
+        <volt_warn_lo>3.00</volt_warn_lo>
+        <current>37.11</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>63.77</current_alrm_hi>
+        <current_alrm_lo>69.66</current_alrm_lo>
+        <current_warn_hi>94.48</current_warn_hi>
+        <current_warn_lo>38.97</current_warn_lo>
+        <tx_pwr>0.33</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>3.29</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-8.21</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>2.29</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-7.01</tx_pwr_warn_lo>
+        <rx_pwr>0.17</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>4.49</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-16.57</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>2.49</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet2/4</interface>
+        <sfp>present</sfp>
+        <type/>
+        <name>Arista Networks </name>
+        <partnum>QSFP-40G-LR4-AR </partnum>
+        <rev>--</rev>
+        <serialnum>***SECRET***</serialnum>
+        <nom_bitrate>10300</nom_bitrate>
+        <len_9>10</len_9>
+        <ciscoid>--</ciscoid>
+        <ciscoid_1>196</ciscoid_1>
+        <temperature>47.96</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>80.00</temp_alrm_hi>
+        <temp_alrm_lo>-10.00</temp_alrm_lo>
+        <temp_warn_hi>75.00</temp_warn_hi>
+        <temp_warn_lo>-5.00</temp_warn_lo>
+        <voltage>3.25</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.70</volt_alrm_hi>
+        <volt_alrm_lo>2.90</volt_alrm_lo>
+        <volt_warn_hi>3.59</volt_warn_hi>
+        <volt_warn_lo>3.00</volt_warn_lo>
+        <current>37.13</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>63.77</current_alrm_hi>
+        <current_alrm_lo>69.66</current_alrm_lo>
+        <current_warn_hi>94.48</current_warn_hi>
+        <current_warn_lo>38.97</current_warn_lo>
+        <tx_pwr>-0.17</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>3.29</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-8.21</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>2.29</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-7.01</tx_pwr_warn_lo>
+        <rx_pwr>-1.67</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>4.49</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-16.57</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>2.49</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
+        <temperature>48.06</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>80.00</temp_alrm_hi>
+        <temp_alrm_lo>-10.00</temp_alrm_lo>
+        <temp_warn_hi>75.00</temp_warn_hi>
+        <temp_warn_lo>-5.00</temp_warn_lo>
+        <voltage>3.25</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.70</volt_alrm_hi>
+        <volt_alrm_lo>2.90</volt_alrm_lo>
+        <volt_warn_hi>3.59</volt_warn_hi>
+        <volt_warn_lo>3.00</volt_warn_lo>
+        <current>38.40</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>63.77</current_alrm_hi>
+        <current_alrm_lo>69.66</current_alrm_lo>
+        <current_warn_hi>94.48</current_warn_hi>
+        <current_warn_lo>38.97</current_warn_lo>
+        <tx_pwr>-0.36</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>3.29</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-8.21</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>2.29</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-7.01</tx_pwr_warn_lo>
+        <rx_pwr>-1.48</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>4.49</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-16.57</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>2.49</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
+        <temperature>48.06</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>80.00</temp_alrm_hi>
+        <temp_alrm_lo>-10.00</temp_alrm_lo>
+        <temp_warn_hi>75.00</temp_warn_hi>
+        <temp_warn_lo>-5.00</temp_warn_lo>
+        <voltage>3.25</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.70</volt_alrm_hi>
+        <volt_alrm_lo>2.90</volt_alrm_lo>
+        <volt_warn_hi>3.59</volt_warn_hi>
+        <volt_warn_lo>3.00</volt_warn_lo>
+        <current>38.27</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>63.77</current_alrm_hi>
+        <current_alrm_lo>69.66</current_alrm_lo>
+        <current_warn_hi>94.48</current_warn_hi>
+        <current_warn_lo>38.97</current_warn_lo>
+        <tx_pwr>-2.33</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>3.29</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-8.21</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>2.29</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-7.01</tx_pwr_warn_lo>
+        <rx_pwr>-4.27</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>4.49</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-16.57</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>2.49</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
+        <temperature>48.06</temperature>
+        <temp_flag> </temp_flag>
+        <temp_alrm_hi>80.00</temp_alrm_hi>
+        <temp_alrm_lo>-10.00</temp_alrm_lo>
+        <temp_warn_hi>75.00</temp_warn_hi>
+        <temp_warn_lo>-5.00</temp_warn_lo>
+        <voltage>3.25</voltage>
+        <volt_flag> </volt_flag>
+        <volt_alrm_hi>3.70</volt_alrm_hi>
+        <volt_alrm_lo>2.90</volt_alrm_lo>
+        <volt_warn_hi>3.59</volt_warn_hi>
+        <volt_warn_lo>3.00</volt_warn_lo>
+        <current>37.65</current>
+        <current_flag> </current_flag>
+        <current_alrm_hi>63.77</current_alrm_hi>
+        <current_alrm_lo>69.66</current_alrm_lo>
+        <current_warn_hi>94.48</current_warn_hi>
+        <current_warn_lo>38.97</current_warn_lo>
+        <tx_pwr>0.22</tx_pwr>
+        <tx_pwr_flag> </tx_pwr_flag>
+        <tx_pwr_alrm_hi>3.29</tx_pwr_alrm_hi>
+        <tx_pwr_alrm_lo>-8.21</tx_pwr_alrm_lo>
+        <tx_pwr_warn_hi>2.29</tx_pwr_warn_hi>
+        <tx_pwr_warn_lo>-7.01</tx_pwr_warn_lo>
+        <rx_pwr>-1.07</rx_pwr>
+        <rx_pwr_flag> </rx_pwr_flag>
+        <rx_pwr_alrm_hi>4.49</rx_pwr_alrm_hi>
+        <rx_pwr_alrm_lo>-16.57</rx_pwr_alrm_lo>
+        <rx_pwr_warn_hi>2.49</rx_pwr_warn_hi>
+        <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet2/5</interface>
+        <sfp>not present</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet2/6</interface>
+        <sfp>not present</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/1</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/2</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/3</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/4</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/5</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/6</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/7</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/8</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/9</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/10</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/11</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/12</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/13</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/14</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/15</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/16</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/17</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/18</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/19</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/20</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/21</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/22</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/23</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/24</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/25</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/26</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/27</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/28</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/29</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/30</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/31</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/32</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/33</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/34</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/35</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/36</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/37</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/38</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/39</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/40</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/41</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/42</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/43</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/44</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/45</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/46</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/47</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet101/1/48</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/1</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/2</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/3</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/4</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/5</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/6</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/7</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/8</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/9</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/10</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/11</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/12</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/13</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/14</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/15</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/16</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/17</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/18</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/19</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/20</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/21</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/22</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/23</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/24</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/25</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/26</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/27</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/28</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/29</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/30</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/31</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/32</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/33</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/34</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/35</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/36</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/37</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/38</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/39</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/40</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/41</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/42</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/43</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/44</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/45</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/46</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/47</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+       <ROW_interface>
+        <interface>Ethernet102/1/48</interface>
+        <sfp>not applicable</sfp>
+       </ROW_interface>
+      </TABLE_interface>
+     </__readonly__>
+    </details>
+   </transceiver>
+  </interface>
+ </show>
+</data>
