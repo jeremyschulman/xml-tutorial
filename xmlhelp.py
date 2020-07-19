@@ -19,4 +19,3 @@ def strip_ns(root: etree.Element) -> etree.Element:
 
     etree.cleanup_namespaces(root)
     return root
-

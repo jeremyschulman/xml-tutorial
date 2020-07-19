@@ -1,4 +1,4 @@
-<devices xmlns="http://tail-f.com/ns/ncs"  xmlns:ncs="http://tail-f.com/ns/ncs">
+<devices>
 <global-settings>
   <trace-dir>/var/log/ncs</trace-dir>
 </global-settings>
@@ -25,7 +25,7 @@
   <authgroup>labadmin</authgroup>
   <device-type>
   <cli>
-    <ned-id xmlns:cisco-iosxr-cli-7.20="http://tail-f.com/ns/ned-id/cisco-iosxr-cli-7.20">cisco-iosxr-cli-7.20:cisco-iosxr-cli-7.20</ned-id>
+    <ned-id>cisco-iosxr-cli-7.20:cisco-iosxr-cli-7.20</ned-id>
     <protocol>telnet</protocol>
   </cli>
 </device-type>
@@ -124,7 +124,7 @@
   <serial-number>N/A</serial-number>
 </platform>
 <config>
-<admin xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<admin>
   <username>
     <name>cisco</name>
     <secret>
@@ -133,8 +133,8 @@
     </secret>
   </username>
 </admin>
-<hostname xmlns="http://tail-f.com/ned/cisco-ios-xr">core-rtr01</hostname>
-<vrf xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<hostname>core-rtr01</hostname>
+<vrf>
   <vrf-list>
     <name>Mgmt-intf</name>
     <address-family>
@@ -149,10 +149,10 @@
 </address-family>
 </vrf-list>
 </vrf>
-<logging xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<logging>
   <console>disable</console>
 </logging>
-<service xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<service>
 <timestamps>
 <debug>
 <datetime>
@@ -166,13 +166,13 @@
 </log>
 </timestamps>
 </service>
-<domain xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<domain>
 <lookup>
   <disable/>
 </lookup>
 <name>virl.info</name>
 </domain>
-<telnet xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<telnet>
   <vrf>
     <name>Mgmt-intf</name>
     <telnet-server-list>
@@ -192,7 +192,7 @@
     </telnet-server-list>
   </vrf>
 </telnet>
-<line xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<line>
 <console>
 <exec-timeout>
   <minutes>0</minutes>
@@ -223,13 +223,13 @@
   </exec-timeout>
 </template>
 </line>
-<vty-pool xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<vty-pool>
 <default>
   <first-vty>0</first-vty>
   <last-vty>50</last-vty>
 </default>
 </vty-pool>
-<control-plane xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<control-plane>
 <management-plane>
 <inband>
   <interface>
@@ -241,12 +241,12 @@
 </inband>
 </management-plane>
 </control-plane>
-<ssh xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<ssh>
 <server>
   <v2/>
 </server>
 </ssh>
-<interface xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<interface>
   <Loopback>
     <id>0</id>
     <description>to</description>
@@ -304,7 +304,7 @@
 </ipv4>
 </GigabitEthernet>
 </interface>
-<router xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<router>
 <static>
 <address-family>
 <ipv4>
@@ -349,8 +349,8 @@
   </area>
 </ospf>
 </router>
-<xyzroot xmlns="http://tail-f.com/ned/cisco-ios-xr">0</xyzroot>
-<yang-library xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<xyzroot>0</xyzroot>
+<yang-library>
   <module-set>
     <name>common</name>
     <module>
@@ -379,7 +379,7 @@
     </module>
     <import-only-module>
       <name>tailf-ned-cisco-ios-xr-id</name>
-      <revision></revision>
+      <revision/>
       <namespace>http://tail-f.com/ned/cisco-ios-xr-id</namespace>
     </import-only-module>
   </module-set>
@@ -388,20 +388,20 @@
     <module-set>common</module-set>
   </schema>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:running</name>
+    <name>ds:running</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:intended</name>
+    <name>ds:intended</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:operational</name>
+    <name>ds:operational</name>
     <schema>common</schema>
   </datastore>
   <content-id>528e1812f9b6ed0126eb681dacc25264</content-id>
 </yang-library>
-<modules-state xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<modules-state>
   <module-set-id>528e1812f9b6ed0126eb681dacc25264</module-set-id>
   <module>
     <name>ietf-interfaces</name>
@@ -428,25 +428,25 @@
   </module>
   <module>
     <name>tailf-ned-cisco-ios-xr-id</name>
-    <revision></revision>
+    <revision/>
     <namespace>http://tail-f.com/ned/cisco-ios-xr-id</namespace>
     <conformance-type>import</conformance-type>
   </module>
   <module>
     <name>tailf-ned-cisco-ios-xr-stats</name>
-    <revision></revision>
+    <revision/>
     <namespace>http://tail-f.com/ned/cisco-ios-xr-stats</namespace>
     <conformance-type>implement</conformance-type>
   </module>
 </modules-state>
 </config>
 <live-status>
-  <inventory xmlns="http://tail-f.com/ned/cisco-ios-xr-stats">
+  <inventory>
     <name>0/0/CPU0</name>
     <descr>Route Processor type (16, 0)</descr>
     <sn>N/A</sn>
   </inventory>
-  <interfaces-state xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+  <interfaces-state>
     <interface>
       <name>GigabitEthernet0/0/0/0</name>
       <admin-status>up</admin-status>
@@ -467,7 +467,7 @@
         <out-discards>0</out-discards>
         <out-errors>0</out-errors>
       </statistics>
-      <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv4>
         <forwarding>true</forwarding>
         <mtu>1514</mtu>
         <address>
@@ -475,7 +475,7 @@
           <netmask>255.255.255.252</netmask>
         </address>
       </ipv4>
-      <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv6>
         <forwarding>true</forwarding>
         <mtu>1514</mtu>
       </ipv6>
@@ -500,7 +500,7 @@
         <out-discards>0</out-discards>
         <out-errors>0</out-errors>
       </statistics>
-      <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv4>
         <forwarding>true</forwarding>
         <mtu>1514</mtu>
         <address>
@@ -508,7 +508,7 @@
           <netmask>255.255.255.248</netmask>
         </address>
       </ipv4>
-      <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv6>
         <forwarding>true</forwarding>
         <mtu>1514</mtu>
       </ipv6>
@@ -533,7 +533,7 @@
         <out-discards>0</out-discards>
         <out-errors>0</out-errors>
       </statistics>
-      <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv4>
         <forwarding>true</forwarding>
         <mtu>1514</mtu>
         <address>
@@ -541,7 +541,7 @@
           <netmask>255.255.255.252</netmask>
         </address>
       </ipv4>
-      <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv6>
         <forwarding>true</forwarding>
         <mtu>1514</mtu>
       </ipv6>
@@ -566,7 +566,7 @@
         <out-discards>0</out-discards>
         <out-errors>0</out-errors>
       </statistics>
-      <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv4>
         <forwarding>true</forwarding>
         <mtu>1514</mtu>
         <address>
@@ -574,7 +574,7 @@
           <netmask>255.255.255.252</netmask>
         </address>
       </ipv4>
-      <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv6>
         <forwarding>true</forwarding>
         <mtu>1514</mtu>
       </ipv6>
@@ -583,11 +583,11 @@
       <name>Loopback0</name>
       <admin-status>down</admin-status>
       <speed>0</speed>
-      <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv4>
         <forwarding>true</forwarding>
         <mtu>1500</mtu>
       </ipv4>
-      <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv6>
         <forwarding>true</forwarding>
         <mtu>1500</mtu>
       </ipv6>
@@ -612,7 +612,7 @@
         <out-discards>0</out-discards>
         <out-errors>0</out-errors>
       </statistics>
-      <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv4>
         <forwarding>true</forwarding>
         <mtu>1514</mtu>
         <address>
@@ -620,7 +620,7 @@
           <netmask>255.255.255.0</netmask>
         </address>
       </ipv4>
-      <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv6>
         <forwarding>true</forwarding>
         <mtu>1514</mtu>
       </ipv6>
@@ -642,17 +642,17 @@
         <out-multicast-pkts>0</out-multicast-pkts>
         <out-discards>0</out-discards>
       </statistics>
-      <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv4>
         <forwarding>true</forwarding>
         <mtu>1500</mtu>
       </ipv4>
-      <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv6>
         <forwarding>true</forwarding>
         <mtu>1500</mtu>
       </ipv6>
     </interface>
   </interfaces-state>
-  <yang-library xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+  <yang-library>
     <module-set>
       <name>common</name>
       <module>
@@ -681,7 +681,7 @@
       </module>
       <import-only-module>
         <name>tailf-ned-cisco-ios-xr-id</name>
-        <revision></revision>
+        <revision/>
         <namespace>http://tail-f.com/ned/cisco-ios-xr-id</namespace>
       </import-only-module>
     </module-set>
@@ -690,20 +690,20 @@
       <module-set>common</module-set>
     </schema>
     <datastore>
-      <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:running</name>
+      <name>ds:running</name>
       <schema>common</schema>
     </datastore>
     <datastore>
-      <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:intended</name>
+      <name>ds:intended</name>
       <schema>common</schema>
     </datastore>
     <datastore>
-      <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:operational</name>
+      <name>ds:operational</name>
       <schema>common</schema>
     </datastore>
     <content-id>528e1812f9b6ed0126eb681dacc25264</content-id>
   </yang-library>
-  <modules-state xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+  <modules-state>
     <module-set-id>528e1812f9b6ed0126eb681dacc25264</module-set-id>
     <module>
       <name>ietf-interfaces</name>
@@ -730,19 +730,19 @@
     </module>
     <module>
       <name>tailf-ned-cisco-ios-xr-id</name>
-      <revision></revision>
+      <revision/>
       <namespace>http://tail-f.com/ned/cisco-ios-xr-id</namespace>
       <conformance-type>import</conformance-type>
     </module>
     <module>
       <name>tailf-ned-cisco-ios-xr-stats</name>
-      <revision></revision>
+      <revision/>
       <namespace>http://tail-f.com/ned/cisco-ios-xr-stats</namespace>
       <conformance-type>implement</conformance-type>
     </module>
   </modules-state>
 </live-status>
-<alarm-summary xmlns="http://tail-f.com/ns/ncs-alarms">
+<alarm-summary>
   <indeterminates>0</indeterminates>
   <criticals>0</criticals>
   <majors>0</majors>
@@ -759,7 +759,7 @@
   <authgroup>labadmin</authgroup>
   <device-type>
   <cli>
-    <ned-id xmlns:cisco-iosxr-cli-7.20="http://tail-f.com/ns/ned-id/cisco-iosxr-cli-7.20">cisco-iosxr-cli-7.20:cisco-iosxr-cli-7.20</ned-id>
+    <ned-id>cisco-iosxr-cli-7.20:cisco-iosxr-cli-7.20</ned-id>
     <protocol>telnet</protocol>
   </cli>
 </device-type>
@@ -858,7 +858,7 @@
   <serial-number>N/A</serial-number>
 </platform>
 <config>
-<admin xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<admin>
   <username>
     <name>cisco</name>
     <secret>
@@ -867,8 +867,8 @@
     </secret>
   </username>
 </admin>
-<hostname xmlns="http://tail-f.com/ned/cisco-ios-xr">core-rtr02</hostname>
-<vrf xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<hostname>core-rtr02</hostname>
+<vrf>
   <vrf-list>
     <name>Mgmt-intf</name>
     <address-family>
@@ -883,10 +883,10 @@
 </address-family>
 </vrf-list>
 </vrf>
-<logging xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<logging>
   <console>disable</console>
 </logging>
-<service xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<service>
 <timestamps>
 <debug>
 <datetime>
@@ -900,13 +900,13 @@
 </log>
 </timestamps>
 </service>
-<domain xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<domain>
 <lookup>
   <disable/>
 </lookup>
 <name>virl.info</name>
 </domain>
-<telnet xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<telnet>
   <vrf>
     <name>Mgmt-intf</name>
     <telnet-server-list>
@@ -926,7 +926,7 @@
     </telnet-server-list>
   </vrf>
 </telnet>
-<line xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<line>
 <console>
 <exec-timeout>
   <minutes>0</minutes>
@@ -957,13 +957,13 @@
   </exec-timeout>
 </template>
 </line>
-<vty-pool xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<vty-pool>
 <default>
   <first-vty>0</first-vty>
   <last-vty>50</last-vty>
 </default>
 </vty-pool>
-<control-plane xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<control-plane>
 <management-plane>
 <inband>
   <interface>
@@ -975,12 +975,12 @@
 </inband>
 </management-plane>
 </control-plane>
-<ssh xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<ssh>
 <server>
   <v2/>
 </server>
 </ssh>
-<interface xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<interface>
   <Loopback>
     <id>0</id>
     <description>to</description>
@@ -1038,7 +1038,7 @@
 </ipv4>
 </GigabitEthernet>
 </interface>
-<router xmlns="http://tail-f.com/ned/cisco-ios-xr">
+<router>
 <static>
 <address-family>
 <ipv4>
@@ -1083,8 +1083,8 @@
   </area>
 </ospf>
 </router>
-<xyzroot xmlns="http://tail-f.com/ned/cisco-ios-xr">0</xyzroot>
-<yang-library xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<xyzroot>0</xyzroot>
+<yang-library>
   <module-set>
     <name>common</name>
     <module>
@@ -1113,7 +1113,7 @@
     </module>
     <import-only-module>
       <name>tailf-ned-cisco-ios-xr-id</name>
-      <revision></revision>
+      <revision/>
       <namespace>http://tail-f.com/ned/cisco-ios-xr-id</namespace>
     </import-only-module>
   </module-set>
@@ -1122,20 +1122,20 @@
     <module-set>common</module-set>
   </schema>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:running</name>
+    <name>ds:running</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:intended</name>
+    <name>ds:intended</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:operational</name>
+    <name>ds:operational</name>
     <schema>common</schema>
   </datastore>
   <content-id>528e1812f9b6ed0126eb681dacc25264</content-id>
 </yang-library>
-<modules-state xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<modules-state>
   <module-set-id>528e1812f9b6ed0126eb681dacc25264</module-set-id>
   <module>
     <name>ietf-interfaces</name>
@@ -1162,25 +1162,25 @@
   </module>
   <module>
     <name>tailf-ned-cisco-ios-xr-id</name>
-    <revision></revision>
+    <revision/>
     <namespace>http://tail-f.com/ned/cisco-ios-xr-id</namespace>
     <conformance-type>import</conformance-type>
   </module>
   <module>
     <name>tailf-ned-cisco-ios-xr-stats</name>
-    <revision></revision>
+    <revision/>
     <namespace>http://tail-f.com/ned/cisco-ios-xr-stats</namespace>
     <conformance-type>implement</conformance-type>
   </module>
 </modules-state>
 </config>
 <live-status>
-  <inventory xmlns="http://tail-f.com/ned/cisco-ios-xr-stats">
+  <inventory>
     <name>0/0/CPU0</name>
     <descr>Route Processor type (16, 0)</descr>
     <sn>N/A</sn>
   </inventory>
-  <interfaces-state xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+  <interfaces-state>
     <interface>
       <name>GigabitEthernet0/0/0/0</name>
       <admin-status>up</admin-status>
@@ -1201,7 +1201,7 @@
         <out-discards>0</out-discards>
         <out-errors>0</out-errors>
       </statistics>
-      <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv4>
         <forwarding>true</forwarding>
         <mtu>1514</mtu>
         <address>
@@ -1209,7 +1209,7 @@
           <netmask>255.255.255.252</netmask>
         </address>
       </ipv4>
-      <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv6>
         <forwarding>true</forwarding>
         <mtu>1514</mtu>
       </ipv6>
@@ -1234,7 +1234,7 @@
         <out-discards>0</out-discards>
         <out-errors>0</out-errors>
       </statistics>
-      <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv4>
         <forwarding>true</forwarding>
         <mtu>1514</mtu>
         <address>
@@ -1242,7 +1242,7 @@
           <netmask>255.255.255.248</netmask>
         </address>
       </ipv4>
-      <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv6>
         <forwarding>true</forwarding>
         <mtu>1514</mtu>
       </ipv6>
@@ -1267,7 +1267,7 @@
         <out-discards>0</out-discards>
         <out-errors>0</out-errors>
       </statistics>
-      <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv4>
         <forwarding>true</forwarding>
         <mtu>1514</mtu>
         <address>
@@ -1275,7 +1275,7 @@
           <netmask>255.255.255.252</netmask>
         </address>
       </ipv4>
-      <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv6>
         <forwarding>true</forwarding>
         <mtu>1514</mtu>
       </ipv6>
@@ -1300,7 +1300,7 @@
         <out-discards>0</out-discards>
         <out-errors>0</out-errors>
       </statistics>
-      <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv4>
         <forwarding>true</forwarding>
         <mtu>1514</mtu>
         <address>
@@ -1308,7 +1308,7 @@
           <netmask>255.255.255.252</netmask>
         </address>
       </ipv4>
-      <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv6>
         <forwarding>true</forwarding>
         <mtu>1514</mtu>
       </ipv6>
@@ -1317,11 +1317,11 @@
       <name>Loopback0</name>
       <admin-status>down</admin-status>
       <speed>0</speed>
-      <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv4>
         <forwarding>true</forwarding>
         <mtu>1500</mtu>
       </ipv4>
-      <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv6>
         <forwarding>true</forwarding>
         <mtu>1500</mtu>
       </ipv6>
@@ -1346,7 +1346,7 @@
         <out-discards>0</out-discards>
         <out-errors>0</out-errors>
       </statistics>
-      <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv4>
         <forwarding>true</forwarding>
         <mtu>1514</mtu>
         <address>
@@ -1354,7 +1354,7 @@
           <netmask>255.255.255.0</netmask>
         </address>
       </ipv4>
-      <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv6>
         <forwarding>true</forwarding>
         <mtu>1514</mtu>
       </ipv6>
@@ -1376,17 +1376,17 @@
         <out-multicast-pkts>0</out-multicast-pkts>
         <out-discards>0</out-discards>
       </statistics>
-      <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv4>
         <forwarding>true</forwarding>
         <mtu>1500</mtu>
       </ipv4>
-      <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <ipv6>
         <forwarding>true</forwarding>
         <mtu>1500</mtu>
       </ipv6>
     </interface>
   </interfaces-state>
-  <yang-library xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+  <yang-library>
     <module-set>
       <name>common</name>
       <module>
@@ -1415,7 +1415,7 @@
       </module>
       <import-only-module>
         <name>tailf-ned-cisco-ios-xr-id</name>
-        <revision></revision>
+        <revision/>
         <namespace>http://tail-f.com/ned/cisco-ios-xr-id</namespace>
       </import-only-module>
     </module-set>
@@ -1424,20 +1424,20 @@
       <module-set>common</module-set>
     </schema>
     <datastore>
-      <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:running</name>
+      <name>ds:running</name>
       <schema>common</schema>
     </datastore>
     <datastore>
-      <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:intended</name>
+      <name>ds:intended</name>
       <schema>common</schema>
     </datastore>
     <datastore>
-      <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:operational</name>
+      <name>ds:operational</name>
       <schema>common</schema>
     </datastore>
     <content-id>528e1812f9b6ed0126eb681dacc25264</content-id>
   </yang-library>
-  <modules-state xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+  <modules-state>
     <module-set-id>528e1812f9b6ed0126eb681dacc25264</module-set-id>
     <module>
       <name>ietf-interfaces</name>
@@ -1464,19 +1464,19 @@
     </module>
     <module>
       <name>tailf-ned-cisco-ios-xr-id</name>
-      <revision></revision>
+      <revision/>
       <namespace>http://tail-f.com/ned/cisco-ios-xr-id</namespace>
       <conformance-type>import</conformance-type>
     </module>
     <module>
       <name>tailf-ned-cisco-ios-xr-stats</name>
-      <revision></revision>
+      <revision/>
       <namespace>http://tail-f.com/ned/cisco-ios-xr-stats</namespace>
       <conformance-type>implement</conformance-type>
     </module>
   </modules-state>
 </live-status>
-<alarm-summary xmlns="http://tail-f.com/ns/ncs-alarms">
+<alarm-summary>
   <indeterminates>0</indeterminates>
   <criticals>0</criticals>
   <majors>0</majors>
@@ -1493,7 +1493,7 @@
   <authgroup>labadmin</authgroup>
   <device-type>
   <cli>
-    <ned-id xmlns:cisco-ios-cli-6.44="http://tail-f.com/ns/ned-id/cisco-ios-cli-6.44">cisco-ios-cli-6.44:cisco-ios-cli-6.44</ned-id>
+    <ned-id>cisco-ios-cli-6.44:cisco-ios-cli-6.44</ned-id>
     <protocol>telnet</protocol>
   </cli>
 </device-type>
@@ -1592,11 +1592,11 @@
   <serial-number>9GNE9YOPH2B</serial-number>
 </platform>
 <config>
-<tailfned xmlns="urn:ios">
+<tailfned>
   <police>cirmode</police>
 </tailfned>
-<version xmlns="urn:ios">16.11</version>
-<service xmlns="urn:ios">
+<version>16.11</version>
+<service>
 <timestamps>
 <debug>
 <datetime>
@@ -1611,12 +1611,12 @@
 </timestamps>
 <call-home/>
 </service>
-<login xmlns="urn:ios">
+<login>
 <on-success>
   <log/>
 </on-success>
 </login>
-<platform xmlns="urn:ios">
+<platform>
   <console>serial</console>
   <punt-keepalive>
     <disable-kernel-core>false</disable-kernel-core>
@@ -1629,8 +1629,8 @@
 </utilization>
 </qfp>
 </platform>
-<hostname xmlns="urn:ios">dist-rtr01</hostname>
-<vrf xmlns="urn:ios">
+<hostname>dist-rtr01</hostname>
+<vrf>
   <definition>
     <name>Mgmt-intf</name>
     <address-family>
@@ -1641,12 +1641,12 @@
   </address-family>
 </definition>
 </vrf>
-<enable xmlns="urn:ios">
+<enable>
 <password>
   <secret>cisco</secret>
 </password>
 </enable>
-<call-home xmlns="urn:ios">
+<call-home>
   <contact-email-addr>sch-smart-licensing@cisco.com</contact-email-addr>
   <profile>
     <name>CiscoTAC-1</name>
@@ -1662,7 +1662,7 @@
   </destination>
 </profile>
 </call-home>
-<ip xmlns="urn:ios">
+<ip>
 <domain>
 <lookup-conf>
   <lookup>false</lookup>
@@ -1694,13 +1694,13 @@
   </vrf>
 </route>
 </ip>
-<subscriber xmlns="urn:ios">
+<subscriber>
   <templating>true</templating>
 </subscriber>
-<multilink xmlns="urn:ios">
+<multilink>
   <bundle-name>authenticated</bundle-name>
 </multilink>
-<username xmlns="urn:ios">
+<username>
   <name>cisco</name>
   <privilege>15</privilege>
   <secret>
@@ -1708,9 +1708,9 @@
     <secret>$9$iVecEqVTUJzHUk$EO2BfGoo4I8.wW.QanPw2rSxwy9NJt6kc3xFNEFLYSA</secret>
   </secret>
 </username>
-<redundancy xmlns="urn:ios">
+<redundancy>
 </redundancy>
-<crypto xmlns="urn:ios">
+<crypto>
 <pki>
   <trustpoint>
     <id>SLA-TrustPoint</id>
@@ -1802,7 +1802,7 @@
   </certificate>
 </pki>
 </crypto>
-<interface xmlns="urn:ios">
+<interface>
   <Loopback>
     <name>0</name>
     <description>to</description>
@@ -1931,9 +1931,9 @@
 </ip>
 </GigabitEthernet>
 </interface>
-<control-plane xmlns="urn:ios">
+<control-plane>
 </control-plane>
-<line xmlns="urn:ios">
+<line>
   <console>
     <first>0</first>
     <exec-timeout>
@@ -1962,7 +1962,7 @@
     </transport>
   </vty>
 </line>
-<logging xmlns="urn:ios">
+<logging>
 <buffered>
   <severity-level>debugging</severity-level>
 </buffered>
@@ -1970,17 +1970,17 @@
   <severity-level>debugging</severity-level>
 </monitor>
 </logging>
-<spanning-tree xmlns="urn:ios">
+<spanning-tree>
 <extend>
   <system-id/>
 </extend>
 </spanning-tree>
-<diagnostic xmlns="urn:ios">
+<diagnostic>
 <bootup>
   <level>minimal</level>
 </bootup>
 </diagnostic>
-<router xmlns="urn:ios">
+<router>
   <ospf>
     <id>1</id>
     <network>
@@ -1990,14 +1990,14 @@
     </network>
   </ospf>
 </router>
-<memory xmlns="urn:ios">
+<memory>
 <free>
 <low-watermark>
   <processor>80526</processor>
 </low-watermark>
 </free>
 </memory>
-<yang-library xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<yang-library>
   <module-set>
     <name>common</name>
     <module>
@@ -2026,7 +2026,7 @@
     </module>
     <import-only-module>
       <name>tailf-ned-cisco-ios-id</name>
-      <revision></revision>
+      <revision/>
       <namespace>urn:ios-id</namespace>
     </import-only-module>
   </module-set>
@@ -2035,20 +2035,20 @@
     <module-set>common</module-set>
   </schema>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:running</name>
+    <name>ds:running</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:intended</name>
+    <name>ds:intended</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:operational</name>
+    <name>ds:operational</name>
     <schema>common</schema>
   </datastore>
   <content-id>6997dfc36a18679f43c55c43b7873b15</content-id>
 </yang-library>
-<modules-state xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<modules-state>
   <module-set-id>6997dfc36a18679f43c55c43b7873b15</module-set-id>
   <module>
     <name>ietf-interfaces</name>
@@ -2075,20 +2075,20 @@
   </module>
   <module>
     <name>tailf-ned-cisco-ios-id</name>
-    <revision></revision>
+    <revision/>
     <namespace>urn:ios-id</namespace>
     <conformance-type>import</conformance-type>
   </module>
   <module>
     <name>tailf-ned-cisco-ios-stats</name>
-    <revision></revision>
+    <revision/>
     <namespace>urn:ios-stats</namespace>
     <conformance-type>implement</conformance-type>
   </module>
 </modules-state>
 </config>
 <live-status>
-<interfaces-state xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+<interfaces-state>
   <interface>
     <name>GigabitEthernet1</name>
     <admin-status>up</admin-status>
@@ -2104,7 +2104,7 @@
       <out-unicast-pkts>15352</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
       <address>
@@ -2113,7 +2113,7 @@
         <origin>other</origin>
       </address>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
@@ -2133,7 +2133,7 @@
       <out-unicast-pkts>282</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
       <address>
@@ -2142,7 +2142,7 @@
         <origin>other</origin>
       </address>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
@@ -2162,7 +2162,7 @@
       <out-unicast-pkts>253</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
       <address>
@@ -2171,7 +2171,7 @@
         <origin>other</origin>
       </address>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
@@ -2191,7 +2191,7 @@
       <out-unicast-pkts>277</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
       <address>
@@ -2200,7 +2200,7 @@
         <origin>other</origin>
       </address>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
@@ -2220,7 +2220,7 @@
       <out-unicast-pkts>266</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
       <address>
@@ -2229,7 +2229,7 @@
         <origin>other</origin>
       </address>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
@@ -2249,7 +2249,7 @@
       <out-unicast-pkts>288</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
       <address>
@@ -2258,7 +2258,7 @@
         <origin>other</origin>
       </address>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
@@ -2276,17 +2276,17 @@
       <out-unicast-pkts>0</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1514</mtu>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1514</mtu>
     </ipv6>
   </interface>
 </interfaces-state>
-<arp xmlns="urn:ios-stats">
+<arp>
   <address>
     <ip>172.16.252.1</ip>
     <protocol>Internet</protocol>
@@ -2389,68 +2389,68 @@
     </address>
   </vrf>
 </arp>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>GigabitEthernet</type>
   <name>1</name>
   <admin-status>up</admin-status>
   <ip-address>10.10.20.175/24</ip-address>
   <mac-address>5254.000a.c024</mac-address>
 </interfaces>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>GigabitEthernet</type>
   <name>2</name>
   <admin-status>up</admin-status>
   <ip-address>172.16.252.21/30</ip-address>
   <mac-address>5254.0014.d191</mac-address>
 </interfaces>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>GigabitEthernet</type>
   <name>3</name>
   <admin-status>up</admin-status>
   <ip-address>172.16.252.25/30</ip-address>
   <mac-address>5254.0017.7afe</mac-address>
 </interfaces>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>GigabitEthernet</type>
   <name>4</name>
   <admin-status>up</admin-status>
   <ip-address>172.16.252.2/30</ip-address>
   <mac-address>5254.0012.66cf</mac-address>
 </interfaces>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>GigabitEthernet</type>
   <name>5</name>
   <admin-status>up</admin-status>
   <ip-address>172.16.252.10/30</ip-address>
   <mac-address>5254.0010.a43d</mac-address>
 </interfaces>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>GigabitEthernet</type>
   <name>6</name>
   <admin-status>up</admin-status>
   <ip-address>172.16.252.17/30</ip-address>
   <mac-address>5254.001b.a74c</mac-address>
 </interfaces>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>Loopback</type>
   <name>0</name>
   <admin-status>down</admin-status>
 </interfaces>
-<inventory xmlns="urn:ios-stats">
+<inventory>
   <name>Chassis</name>
   <descr>Cisco CSR1000V Chassis</descr>
   <sn>9GNE9YOPH2B</sn>
 </inventory>
-<inventory xmlns="urn:ios-stats">
+<inventory>
   <name>module F0</name>
   <descr>Cisco CSR1000V Embedded Services Processor</descr>
 </inventory>
-<inventory xmlns="urn:ios-stats">
+<inventory>
   <name>module R0</name>
   <descr>Cisco CSR1000V Route Processor</descr>
   <sn>JAB1303001C</sn>
 </inventory>
-<running-config xmlns="urn:ios-stats">
+<running-config>
 <license>
 <udi>
   <pid>CSR1000V</pid>
@@ -2458,7 +2458,7 @@
 </udi>
 </license>
 </running-config>
-<version xmlns="urn:ios-stats">
+<version>
   <name>ios</name>
   <version>16.11.01b</version>
   <model>CSR1000V</model>
@@ -2468,10 +2468,10 @@
     <type>N/A(Smart</type>
   </license>
 </version>
-<vrf xmlns="urn:ios-stats">
+<vrf>
   <name>Mgmt-intf</name>
 </vrf>
-<yang-library xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<yang-library>
   <module-set>
     <name>common</name>
     <module>
@@ -2500,7 +2500,7 @@
     </module>
     <import-only-module>
       <name>tailf-ned-cisco-ios-id</name>
-      <revision></revision>
+      <revision/>
       <namespace>urn:ios-id</namespace>
     </import-only-module>
   </module-set>
@@ -2509,20 +2509,20 @@
     <module-set>common</module-set>
   </schema>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:running</name>
+    <name>ds:running</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:intended</name>
+    <name>ds:intended</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:operational</name>
+    <name>ds:operational</name>
     <schema>common</schema>
   </datastore>
   <content-id>6997dfc36a18679f43c55c43b7873b15</content-id>
 </yang-library>
-<modules-state xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<modules-state>
   <module-set-id>6997dfc36a18679f43c55c43b7873b15</module-set-id>
   <module>
     <name>ietf-interfaces</name>
@@ -2549,19 +2549,19 @@
   </module>
   <module>
     <name>tailf-ned-cisco-ios-id</name>
-    <revision></revision>
+    <revision/>
     <namespace>urn:ios-id</namespace>
     <conformance-type>import</conformance-type>
   </module>
   <module>
     <name>tailf-ned-cisco-ios-stats</name>
-    <revision></revision>
+    <revision/>
     <namespace>urn:ios-stats</namespace>
     <conformance-type>implement</conformance-type>
   </module>
 </modules-state>
 </live-status>
-<alarm-summary xmlns="http://tail-f.com/ns/ncs-alarms">
+<alarm-summary>
   <indeterminates>0</indeterminates>
   <criticals>0</criticals>
   <majors>0</majors>
@@ -2578,7 +2578,7 @@
   <authgroup>labadmin</authgroup>
   <device-type>
   <cli>
-    <ned-id xmlns:cisco-ios-cli-6.44="http://tail-f.com/ns/ned-id/cisco-ios-cli-6.44">cisco-ios-cli-6.44:cisco-ios-cli-6.44</ned-id>
+    <ned-id>cisco-ios-cli-6.44:cisco-ios-cli-6.44</ned-id>
     <protocol>telnet</protocol>
   </cli>
 </device-type>
@@ -2677,11 +2677,11 @@
   <serial-number>9KLJZ9V667T</serial-number>
 </platform>
 <config>
-<tailfned xmlns="urn:ios">
+<tailfned>
   <police>cirmode</police>
 </tailfned>
-<version xmlns="urn:ios">16.11</version>
-<service xmlns="urn:ios">
+<version>16.11</version>
+<service>
 <timestamps>
 <debug>
 <datetime>
@@ -2696,12 +2696,12 @@
 </timestamps>
 <call-home/>
 </service>
-<login xmlns="urn:ios">
+<login>
 <on-success>
   <log/>
 </on-success>
 </login>
-<platform xmlns="urn:ios">
+<platform>
   <console>serial</console>
   <punt-keepalive>
     <disable-kernel-core>false</disable-kernel-core>
@@ -2714,8 +2714,8 @@
 </utilization>
 </qfp>
 </platform>
-<hostname xmlns="urn:ios">dist-rtr02</hostname>
-<vrf xmlns="urn:ios">
+<hostname>dist-rtr02</hostname>
+<vrf>
   <definition>
     <name>Mgmt-intf</name>
     <address-family>
@@ -2726,12 +2726,12 @@
   </address-family>
 </definition>
 </vrf>
-<enable xmlns="urn:ios">
+<enable>
 <password>
   <secret>cisco</secret>
 </password>
 </enable>
-<call-home xmlns="urn:ios">
+<call-home>
   <contact-email-addr>sch-smart-licensing@cisco.com</contact-email-addr>
   <profile>
     <name>CiscoTAC-1</name>
@@ -2747,7 +2747,7 @@
   </destination>
 </profile>
 </call-home>
-<ip xmlns="urn:ios">
+<ip>
 <domain>
 <lookup-conf>
   <lookup>false</lookup>
@@ -2779,13 +2779,13 @@
   </vrf>
 </route>
 </ip>
-<subscriber xmlns="urn:ios">
+<subscriber>
   <templating>true</templating>
 </subscriber>
-<multilink xmlns="urn:ios">
+<multilink>
   <bundle-name>authenticated</bundle-name>
 </multilink>
-<username xmlns="urn:ios">
+<username>
   <name>cisco</name>
   <privilege>15</privilege>
   <secret>
@@ -2793,9 +2793,9 @@
     <secret>$9$cONmK/B00qLzO.$iaGnQNzSbJ3ypgnmS02qYpg3FORertbgOgB2CyOHl9g</secret>
   </secret>
 </username>
-<redundancy xmlns="urn:ios">
+<redundancy>
 </redundancy>
-<crypto xmlns="urn:ios">
+<crypto>
 <pki>
   <trustpoint>
     <id>SLA-TrustPoint</id>
@@ -2887,7 +2887,7 @@
   </certificate>
 </pki>
 </crypto>
-<interface xmlns="urn:ios">
+<interface>
   <Loopback>
     <name>0</name>
     <description>to</description>
@@ -3016,9 +3016,9 @@
 </ip>
 </GigabitEthernet>
 </interface>
-<control-plane xmlns="urn:ios">
+<control-plane>
 </control-plane>
-<line xmlns="urn:ios">
+<line>
   <console>
     <first>0</first>
     <exec-timeout>
@@ -3047,7 +3047,7 @@
     </transport>
   </vty>
 </line>
-<logging xmlns="urn:ios">
+<logging>
 <buffered>
   <severity-level>debugging</severity-level>
 </buffered>
@@ -3055,17 +3055,17 @@
   <severity-level>debugging</severity-level>
 </monitor>
 </logging>
-<spanning-tree xmlns="urn:ios">
+<spanning-tree>
 <extend>
   <system-id/>
 </extend>
 </spanning-tree>
-<diagnostic xmlns="urn:ios">
+<diagnostic>
 <bootup>
   <level>minimal</level>
 </bootup>
 </diagnostic>
-<router xmlns="urn:ios">
+<router>
   <ospf>
     <id>1</id>
     <network>
@@ -3075,14 +3075,14 @@
     </network>
   </ospf>
 </router>
-<memory xmlns="urn:ios">
+<memory>
 <free>
 <low-watermark>
   <processor>80526</processor>
 </low-watermark>
 </free>
 </memory>
-<yang-library xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<yang-library>
   <module-set>
     <name>common</name>
     <module>
@@ -3111,7 +3111,7 @@
     </module>
     <import-only-module>
       <name>tailf-ned-cisco-ios-id</name>
-      <revision></revision>
+      <revision/>
       <namespace>urn:ios-id</namespace>
     </import-only-module>
   </module-set>
@@ -3120,20 +3120,20 @@
     <module-set>common</module-set>
   </schema>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:running</name>
+    <name>ds:running</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:intended</name>
+    <name>ds:intended</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:operational</name>
+    <name>ds:operational</name>
     <schema>common</schema>
   </datastore>
   <content-id>6997dfc36a18679f43c55c43b7873b15</content-id>
 </yang-library>
-<modules-state xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<modules-state>
   <module-set-id>6997dfc36a18679f43c55c43b7873b15</module-set-id>
   <module>
     <name>ietf-interfaces</name>
@@ -3160,20 +3160,20 @@
   </module>
   <module>
     <name>tailf-ned-cisco-ios-id</name>
-    <revision></revision>
+    <revision/>
     <namespace>urn:ios-id</namespace>
     <conformance-type>import</conformance-type>
   </module>
   <module>
     <name>tailf-ned-cisco-ios-stats</name>
-    <revision></revision>
+    <revision/>
     <namespace>urn:ios-stats</namespace>
     <conformance-type>implement</conformance-type>
   </module>
 </modules-state>
 </config>
 <live-status>
-<interfaces-state xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+<interfaces-state>
   <interface>
     <name>GigabitEthernet1</name>
     <admin-status>up</admin-status>
@@ -3189,7 +3189,7 @@
       <out-unicast-pkts>15352</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
       <address>
@@ -3198,7 +3198,7 @@
         <origin>other</origin>
       </address>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
@@ -3218,7 +3218,7 @@
       <out-unicast-pkts>279</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
       <address>
@@ -3227,7 +3227,7 @@
         <origin>other</origin>
       </address>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
@@ -3247,7 +3247,7 @@
       <out-unicast-pkts>250</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
       <address>
@@ -3256,7 +3256,7 @@
         <origin>other</origin>
       </address>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
@@ -3276,7 +3276,7 @@
       <out-unicast-pkts>280</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
       <address>
@@ -3285,7 +3285,7 @@
         <origin>other</origin>
       </address>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
@@ -3305,7 +3305,7 @@
       <out-unicast-pkts>269</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
       <address>
@@ -3314,7 +3314,7 @@
         <origin>other</origin>
       </address>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
@@ -3334,7 +3334,7 @@
       <out-unicast-pkts>287</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
       <address>
@@ -3343,7 +3343,7 @@
         <origin>other</origin>
       </address>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
@@ -3361,17 +3361,17 @@
       <out-unicast-pkts>0</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1514</mtu>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1514</mtu>
     </ipv6>
   </interface>
 </interfaces-state>
-<arp xmlns="urn:ios-stats">
+<arp>
   <address>
     <ip>172.16.252.13</ip>
     <protocol>Internet</protocol>
@@ -3474,68 +3474,68 @@
     </address>
   </vrf>
 </arp>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>GigabitEthernet</type>
   <name>1</name>
   <admin-status>up</admin-status>
   <ip-address>10.10.20.176/24</ip-address>
   <mac-address>5254.0017.a7ef</mac-address>
 </interfaces>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>GigabitEthernet</type>
   <name>2</name>
   <admin-status>up</admin-status>
   <ip-address>172.16.252.29/30</ip-address>
   <mac-address>5254.0010.b98c</mac-address>
 </interfaces>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>GigabitEthernet</type>
   <name>3</name>
   <admin-status>up</admin-status>
   <ip-address>172.16.252.33/30</ip-address>
   <mac-address>5254.0007.8683</mac-address>
 </interfaces>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>GigabitEthernet</type>
   <name>4</name>
   <admin-status>up</admin-status>
   <ip-address>172.16.252.6/30</ip-address>
   <mac-address>5254.0010.cfb8</mac-address>
 </interfaces>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>GigabitEthernet</type>
   <name>5</name>
   <admin-status>up</admin-status>
   <ip-address>172.16.252.14/30</ip-address>
   <mac-address>5254.0000.b10e</mac-address>
 </interfaces>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>GigabitEthernet</type>
   <name>6</name>
   <admin-status>up</admin-status>
   <ip-address>172.16.252.18/30</ip-address>
   <mac-address>5254.001f.d80a</mac-address>
 </interfaces>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>Loopback</type>
   <name>0</name>
   <admin-status>down</admin-status>
 </interfaces>
-<inventory xmlns="urn:ios-stats">
+<inventory>
   <name>Chassis</name>
   <descr>Cisco CSR1000V Chassis</descr>
   <sn>9KLJZ9V667T</sn>
 </inventory>
-<inventory xmlns="urn:ios-stats">
+<inventory>
   <name>module F0</name>
   <descr>Cisco CSR1000V Embedded Services Processor</descr>
 </inventory>
-<inventory xmlns="urn:ios-stats">
+<inventory>
   <name>module R0</name>
   <descr>Cisco CSR1000V Route Processor</descr>
   <sn>JAB1303001C</sn>
 </inventory>
-<running-config xmlns="urn:ios-stats">
+<running-config>
 <license>
 <udi>
   <pid>CSR1000V</pid>
@@ -3543,7 +3543,7 @@
 </udi>
 </license>
 </running-config>
-<version xmlns="urn:ios-stats">
+<version>
   <name>ios</name>
   <version>16.11.01b</version>
   <model>CSR1000V</model>
@@ -3553,10 +3553,10 @@
     <type>N/A(Smart</type>
   </license>
 </version>
-<vrf xmlns="urn:ios-stats">
+<vrf>
   <name>Mgmt-intf</name>
 </vrf>
-<yang-library xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<yang-library>
   <module-set>
     <name>common</name>
     <module>
@@ -3585,7 +3585,7 @@
     </module>
     <import-only-module>
       <name>tailf-ned-cisco-ios-id</name>
-      <revision></revision>
+      <revision/>
       <namespace>urn:ios-id</namespace>
     </import-only-module>
   </module-set>
@@ -3594,20 +3594,20 @@
     <module-set>common</module-set>
   </schema>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:running</name>
+    <name>ds:running</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:intended</name>
+    <name>ds:intended</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:operational</name>
+    <name>ds:operational</name>
     <schema>common</schema>
   </datastore>
   <content-id>6997dfc36a18679f43c55c43b7873b15</content-id>
 </yang-library>
-<modules-state xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<modules-state>
   <module-set-id>6997dfc36a18679f43c55c43b7873b15</module-set-id>
   <module>
     <name>ietf-interfaces</name>
@@ -3634,19 +3634,19 @@
   </module>
   <module>
     <name>tailf-ned-cisco-ios-id</name>
-    <revision></revision>
+    <revision/>
     <namespace>urn:ios-id</namespace>
     <conformance-type>import</conformance-type>
   </module>
   <module>
     <name>tailf-ned-cisco-ios-stats</name>
-    <revision></revision>
+    <revision/>
     <namespace>urn:ios-stats</namespace>
     <conformance-type>implement</conformance-type>
   </module>
 </modules-state>
 </live-status>
-<alarm-summary xmlns="http://tail-f.com/ns/ncs-alarms">
+<alarm-summary>
   <indeterminates>0</indeterminates>
   <criticals>0</criticals>
   <majors>0</majors>
@@ -3663,12 +3663,12 @@
   <authgroup>labadmin</authgroup>
   <device-type>
   <cli>
-    <ned-id xmlns:cisco-nx-cli-5.15="http://tail-f.com/ns/ned-id/cisco-nx-cli-5.15">cisco-nx-cli-5.15:cisco-nx-cli-5.15</ned-id>
+    <ned-id>cisco-nx-cli-5.15:cisco-nx-cli-5.15</ned-id>
     <protocol>telnet</protocol>
   </cli>
 </device-type>
 <ned-settings>
-<cisco-nx xmlns="http://tail-f.com/ned/cisco-nx/meta">
+<cisco-nx>
 <behaviours>
   <show-interface-all>enable</show-interface-all>
 </behaviours>
@@ -3748,12 +3748,12 @@
   <serial-number>9Y5R4GQVT7W</serial-number>
 </platform>
 <config>
-<tailfned xmlns="http://tail-f.com/ned/cisco-nx">
+<tailfned>
   <default-lacp-suspend-individual>true</default-lacp-suspend-individual>
 </tailfned>
-<version xmlns="http://tail-f.com/ned/cisco-nx">9.2(3) Bios:version</version>
-<hostname xmlns="http://tail-f.com/ned/cisco-nx">dist-sw01</hostname>
-<feature xmlns="http://tail-f.com/ned/cisco-nx">
+<version>9.2(3) Bios:version</version>
+<hostname>dist-sw01</hostname>
+<feature>
   <hsrp/>
   <ospf/>
   <vpc/>
@@ -3761,12 +3761,12 @@
   <lacp/>
   <telnet/>
 </feature>
-<cfs xmlns="http://tail-f.com/ned/cisco-nx">
+<cfs>
 <eth>
   <distribute/>
 </eth>
 </cfs>
-<username xmlns="http://tail-f.com/ned/cisco-nx">
+<username>
   <name>admin</name>
   <password>
     <encryption>5</encryption>
@@ -3774,7 +3774,7 @@
   </password>
   <role>network-admin</role>
 </username>
-<username xmlns="http://tail-f.com/ned/cisco-nx">
+<username>
   <name>adminbackup</name>
   <password>
     <encryption>5</encryption>
@@ -3782,7 +3782,7 @@
   </password>
   <role>network-operator</role>
 </username>
-<username xmlns="http://tail-f.com/ned/cisco-nx">
+<username>
   <name>cisco</name>
   <password>
     <encryption>5</encryption>
@@ -3790,7 +3790,7 @@
   </password>
   <role>network-operator</role>
 </username>
-<username xmlns="http://tail-f.com/ned/cisco-nx">
+<username>
   <name>lab</name>
   <password>
     <encryption>5</encryption>
@@ -3798,13 +3798,13 @@
   </password>
   <role>network-admin</role>
 </username>
-<username-secondary-roles xmlns="http://tail-f.com/ned/cisco-nx">
+<username-secondary-roles>
   <username>
     <name>cisco</name>
     <role>network-admin</role>
   </username>
 </username-secondary-roles>
-<username-config xmlns="http://tail-f.com/ned/cisco-nx">
+<username-config>
   <username>
     <name>adminbackup</name>
     <passphrase>
@@ -3830,17 +3830,17 @@
     </passphrase>
   </username>
 </username-config>
-<ip xmlns="http://tail-f.com/ned/cisco-nx">
+<ip>
   <domain-lookup>true</domain-lookup>
 </ip>
-<mac xmlns="http://tail-f.com/ned/cisco-nx">
+<mac>
 <address-table>
 <notification>
   <mac-move>true</mac-move>
 </notification>
 </address-table>
 </mac>
-<snmp-server xmlns="http://tail-f.com/ned/cisco-nx">
+<snmp-server>
   <user>
     <name>admin</name>
     <role>network-admin</role>
@@ -3881,7 +3881,7 @@
     </user>
   </user-secondary-roles>
 </snmp-server>
-<rmon xmlns="http://tail-f.com/ned/cisco-nx">
+<rmon>
   <event>
     <number>1</number>
     <log/>
@@ -3918,10 +3918,10 @@
     <owner>PMON@INFO</owner>
   </event>
 </rmon>
-<password xmlns="http://tail-f.com/ned/cisco-nx">
+<password>
   <strength-check>false</strength-check>
 </password>
-<vlan xmlns="http://tail-f.com/ned/cisco-nx">
+<vlan>
   <vlan-list>
     <id>1</id>
   </vlan-list>
@@ -3946,7 +3946,7 @@
     <name>iot</name>
   </vlan-list>
 </vlan>
-<vrf xmlns="http://tail-f.com/ned/cisco-nx">
+<vrf>
   <context>
     <id>management</id>
     <ip>
@@ -3959,7 +3959,7 @@
   </ip>
 </context>
 </vrf>
-<vpc xmlns="http://tail-f.com/ned/cisco-nx">
+<vpc>
 <domain>
   <id>101</id>
   <disable>
@@ -3985,7 +3985,7 @@
 </graceful>
 </domain>
 </vpc>
-<hardware xmlns="http://tail-f.com/ned/cisco-nx">
+<hardware>
 <forwarding>
 <unicast>
   <trace/>
@@ -3995,7 +3995,7 @@
   <ns-buffer-profile>burst</ns-buffer-profile>
 </qos>
 </hardware>
-<vdc xmlns="http://tail-f.com/ned/cisco-nx">
+<vdc>
   <vdc-list>
     <name>dist-sw01</name>
     <id>1</id>
@@ -4031,7 +4031,7 @@
   </limit-resource>
 </vdc-list>
 </vdc>
-<interface xmlns="http://tail-f.com/ned/cisco-nx">
+<interface>
   <mgmt>
     <name>0</name>
     <description>to port8.sandbox-backend</description>
@@ -5569,14 +5569,14 @@
   <description>to</description>
 </loopback>
 </interface>
-<line xmlns="http://tail-f.com/ned/cisco-nx">
+<line>
 <console>
   <exec-timeout>0</exec-timeout>
 </console>
 <vty>
 </vty>
 </line>
-<router xmlns="http://tail-f.com/ned/cisco-nx">
+<router>
   <ospf>
     <id>1</id>
     <passive-interface>
@@ -5584,11 +5584,11 @@
     </passive-interface>
   </ospf>
 </router>
-<logging xmlns="http://tail-f.com/ned/cisco-nx">
+<logging>
   <monitor>5</monitor>
   <module>5</module>
 </logging>
-<yang-library xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<yang-library>
   <module-set>
     <name>common</name>
     <module>
@@ -5602,7 +5602,7 @@
     </module>
     <import-only-module>
       <name>tailf-ned-cisco-nx-id</name>
-      <revision></revision>
+      <revision/>
       <namespace>http://tail-f.com/ned/cisco-nx-id</namespace>
     </import-only-module>
   </module-set>
@@ -5611,20 +5611,20 @@
     <module-set>common</module-set>
   </schema>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:running</name>
+    <name>ds:running</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:intended</name>
+    <name>ds:intended</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:operational</name>
+    <name>ds:operational</name>
     <schema>common</schema>
   </datastore>
   <content-id>fcb10ea779fa5eb4b6c7f72cb777e824</content-id>
 </yang-library>
-<modules-state xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<modules-state>
   <module-set-id>fcb10ea779fa5eb4b6c7f72cb777e824</module-set-id>
   <module>
     <name>tailf-ned-cisco-nx</name>
@@ -5634,20 +5634,20 @@
   </module>
   <module>
     <name>tailf-ned-cisco-nx-id</name>
-    <revision></revision>
+    <revision/>
     <namespace>http://tail-f.com/ned/cisco-nx-id</namespace>
     <conformance-type>import</conformance-type>
   </module>
   <module>
     <name>tailf-ned-cisco-nx-stats</name>
-    <revision></revision>
+    <revision/>
     <namespace>http://tail-f.com/ned/cisco-nx/stats</namespace>
     <conformance-type>implement</conformance-type>
   </module>
 </modules-state>
 </config>
 <live-status>
-<mac xmlns="http://tail-f.com/ned/cisco-nx/stats">
+<mac>
   <address-table>
     <vlan>-</vlan>
     <mac-address>5254.0007.bf24</mac-address>
@@ -5793,7 +5793,7 @@
     <port>vPC Peer-Link(R)</port>
   </address-table>
 </mac>
-<forwarding xmlns="http://tail-f.com/ned/cisco-nx/stats">
+<forwarding>
   <vrf>
     <name>default</name>
     <id>1</id>
@@ -5807,7 +5807,7 @@
     <reason>--</reason>
   </vrf>
 </forwarding>
-<interface xmlns="http://tail-f.com/ned/cisco-nx/stats">
+<interface>
   <ethernet>
     <name>1/1</name>
     <state>up</state>
@@ -15381,7 +15381,7 @@
     <ucast-pkts-in>0</ucast-pkts-in>
   </vlan>
 </interface>
-<ip xmlns="http://tail-f.com/ned/cisco-nx/stats">
+<ip>
 <route>
   <vrf>
     <name>default</name>
@@ -15906,7 +15906,7 @@
   </vrf>
 </route>
 </ip>
-<vlan xmlns="http://tail-f.com/ned/cisco-nx/stats">
+<vlan>
   <vlans>
     <vlanid>1</vlanid>
     <vlanname>default</vlanname>
@@ -16189,7 +16189,7 @@
     <l3-ucast-packets-in>0</l3-ucast-packets-in>
   </counters>
 </vlan>
-<vpc xmlns="http://tail-f.com/ned/cisco-nx/stats">
+<vpc>
 <role>
   <vpc-peer-status>peer-ok</vpc-peer-status>
   <vpc-peer-status-reason>SUCCESS</vpc-peer-status-reason>
@@ -16231,7 +16231,7 @@
     <vpc-param-peer-val>1,101-105</vpc-param-peer-val>
   </vpc_consistency>
   <vpc_consistency>
-    <vpc-param-name>Input Queuing (Absolute Priority: T->Enabled, F->Disabled)</vpc-param-name>
+    <vpc-param-name>Input Queuing (Absolute Priority: T-&gt;Enabled, F-&gt;Disabled)</vpc-param-name>
     <vpc-param-type>2</vpc-param-type>
     <vpc-param-local-val>(F, F, F, F, F, F)</vpc-param-local-val>
     <vpc-param-peer-val>(F, F, F, F, F, F)</vpc-param-peer-val>
@@ -16267,13 +16267,13 @@
     <vpc-param-peer-val>(1500, 1500, 1500, 1500, 0, 0)</vpc-param-peer-val>
   </vpc_consistency>
   <vpc_consistency>
-    <vpc-param-name>Network Qos (Pause: T->Enabled, F->Disabled)</vpc-param-name>
+    <vpc-param-name>Network Qos (Pause: T-&gt;Enabled, F-&gt;Disabled)</vpc-param-name>
     <vpc-param-type>2</vpc-param-type>
     <vpc-param-local-val>(F, F, F, F, F, F)</vpc-param-local-val>
     <vpc-param-peer-val>(F, F, F, F, F, F)</vpc-param-peer-val>
   </vpc_consistency>
   <vpc_consistency>
-    <vpc-param-name>Output Queuing (Absolute Priority: T->Enabled, F->Disabled)</vpc-param-name>
+    <vpc-param-name>Output Queuing (Absolute Priority: T-&gt;Enabled, F-&gt;Disabled)</vpc-param-name>
     <vpc-param-type>2</vpc-param-type>
     <vpc-param-local-val>(F, F, F, T, F, F)</vpc-param-local-val>
     <vpc-param-peer-val>(F, F, F, T, F, F)</vpc-param-peer-val>
@@ -16345,7 +16345,7 @@
 </global>
 </consistency-parameters>
 </vpc>
-<port-channel xmlns="http://tail-f.com/ned/cisco-nx/stats">
+<port-channel>
 <summary>
   <channel>
     <group>1</group>
@@ -16365,7 +16365,7 @@
   </channel>
 </summary>
 </port-channel>
-<yang-library xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<yang-library>
   <module-set>
     <name>common</name>
     <module>
@@ -16379,7 +16379,7 @@
     </module>
     <import-only-module>
       <name>tailf-ned-cisco-nx-id</name>
-      <revision></revision>
+      <revision/>
       <namespace>http://tail-f.com/ned/cisco-nx-id</namespace>
     </import-only-module>
   </module-set>
@@ -16388,20 +16388,20 @@
     <module-set>common</module-set>
   </schema>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:running</name>
+    <name>ds:running</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:intended</name>
+    <name>ds:intended</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:operational</name>
+    <name>ds:operational</name>
     <schema>common</schema>
   </datastore>
   <content-id>fcb10ea779fa5eb4b6c7f72cb777e824</content-id>
 </yang-library>
-<modules-state xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<modules-state>
   <module-set-id>fcb10ea779fa5eb4b6c7f72cb777e824</module-set-id>
   <module>
     <name>tailf-ned-cisco-nx</name>
@@ -16411,19 +16411,19 @@
   </module>
   <module>
     <name>tailf-ned-cisco-nx-id</name>
-    <revision></revision>
+    <revision/>
     <namespace>http://tail-f.com/ned/cisco-nx-id</namespace>
     <conformance-type>import</conformance-type>
   </module>
   <module>
     <name>tailf-ned-cisco-nx-stats</name>
-    <revision></revision>
+    <revision/>
     <namespace>http://tail-f.com/ned/cisco-nx/stats</namespace>
     <conformance-type>implement</conformance-type>
   </module>
 </modules-state>
 </live-status>
-<alarm-summary xmlns="http://tail-f.com/ns/ncs-alarms">
+<alarm-summary>
   <indeterminates>0</indeterminates>
   <criticals>0</criticals>
   <majors>0</majors>
@@ -16440,12 +16440,12 @@
   <authgroup>labadmin</authgroup>
   <device-type>
   <cli>
-    <ned-id xmlns:cisco-nx-cli-5.15="http://tail-f.com/ns/ned-id/cisco-nx-cli-5.15">cisco-nx-cli-5.15:cisco-nx-cli-5.15</ned-id>
+    <ned-id>cisco-nx-cli-5.15:cisco-nx-cli-5.15</ned-id>
     <protocol>telnet</protocol>
   </cli>
 </device-type>
 <ned-settings>
-<cisco-nx xmlns="http://tail-f.com/ned/cisco-nx/meta">
+<cisco-nx>
 <behaviours>
   <show-interface-all>enable</show-interface-all>
 </behaviours>
@@ -16525,12 +16525,12 @@
   <serial-number>9NFJJG1ZUQQ</serial-number>
 </platform>
 <config>
-<tailfned xmlns="http://tail-f.com/ned/cisco-nx">
+<tailfned>
   <default-lacp-suspend-individual>true</default-lacp-suspend-individual>
 </tailfned>
-<version xmlns="http://tail-f.com/ned/cisco-nx">9.2(3) Bios:version</version>
-<hostname xmlns="http://tail-f.com/ned/cisco-nx">dist-sw02</hostname>
-<feature xmlns="http://tail-f.com/ned/cisco-nx">
+<version>9.2(3) Bios:version</version>
+<hostname>dist-sw02</hostname>
+<feature>
   <hsrp/>
   <ospf/>
   <vpc/>
@@ -16538,12 +16538,12 @@
   <lacp/>
   <telnet/>
 </feature>
-<cfs xmlns="http://tail-f.com/ned/cisco-nx">
+<cfs>
 <eth>
   <distribute/>
 </eth>
 </cfs>
-<username xmlns="http://tail-f.com/ned/cisco-nx">
+<username>
   <name>admin</name>
   <password>
     <encryption>5</encryption>
@@ -16551,7 +16551,7 @@
   </password>
   <role>network-admin</role>
 </username>
-<username xmlns="http://tail-f.com/ned/cisco-nx">
+<username>
   <name>adminbackup</name>
   <password>
     <encryption>5</encryption>
@@ -16559,7 +16559,7 @@
   </password>
   <role>network-operator</role>
 </username>
-<username xmlns="http://tail-f.com/ned/cisco-nx">
+<username>
   <name>cisco</name>
   <password>
     <encryption>5</encryption>
@@ -16567,7 +16567,7 @@
   </password>
   <role>network-operator</role>
 </username>
-<username xmlns="http://tail-f.com/ned/cisco-nx">
+<username>
   <name>lab</name>
   <password>
     <encryption>5</encryption>
@@ -16575,13 +16575,13 @@
   </password>
   <role>network-admin</role>
 </username>
-<username-secondary-roles xmlns="http://tail-f.com/ned/cisco-nx">
+<username-secondary-roles>
   <username>
     <name>cisco</name>
     <role>network-admin</role>
   </username>
 </username-secondary-roles>
-<username-config xmlns="http://tail-f.com/ned/cisco-nx">
+<username-config>
   <username>
     <name>adminbackup</name>
     <passphrase>
@@ -16607,17 +16607,17 @@
     </passphrase>
   </username>
 </username-config>
-<ip xmlns="http://tail-f.com/ned/cisco-nx">
+<ip>
   <domain-lookup>true</domain-lookup>
 </ip>
-<mac xmlns="http://tail-f.com/ned/cisco-nx">
+<mac>
 <address-table>
 <notification>
   <mac-move>true</mac-move>
 </notification>
 </address-table>
 </mac>
-<snmp-server xmlns="http://tail-f.com/ned/cisco-nx">
+<snmp-server>
   <user>
     <name>admin</name>
     <role>network-admin</role>
@@ -16658,7 +16658,7 @@
     </user>
   </user-secondary-roles>
 </snmp-server>
-<rmon xmlns="http://tail-f.com/ned/cisco-nx">
+<rmon>
   <event>
     <number>1</number>
     <log/>
@@ -16695,10 +16695,10 @@
     <owner>PMON@INFO</owner>
   </event>
 </rmon>
-<password xmlns="http://tail-f.com/ned/cisco-nx">
+<password>
   <strength-check>false</strength-check>
 </password>
-<vlan xmlns="http://tail-f.com/ned/cisco-nx">
+<vlan>
   <vlan-list>
     <id>1</id>
   </vlan-list>
@@ -16723,7 +16723,7 @@
     <name>iot</name>
   </vlan-list>
 </vlan>
-<vrf xmlns="http://tail-f.com/ned/cisco-nx">
+<vrf>
   <context>
     <id>management</id>
     <ip>
@@ -16736,7 +16736,7 @@
   </ip>
 </context>
 </vrf>
-<vpc xmlns="http://tail-f.com/ned/cisco-nx">
+<vpc>
 <domain>
   <id>101</id>
   <disable>
@@ -16762,7 +16762,7 @@
 </graceful>
 </domain>
 </vpc>
-<hardware xmlns="http://tail-f.com/ned/cisco-nx">
+<hardware>
 <forwarding>
 <unicast>
   <trace/>
@@ -16772,7 +16772,7 @@
   <ns-buffer-profile>burst</ns-buffer-profile>
 </qos>
 </hardware>
-<vdc xmlns="http://tail-f.com/ned/cisco-nx">
+<vdc>
   <vdc-list>
     <name>dist-sw02</name>
     <id>1</id>
@@ -16808,7 +16808,7 @@
   </limit-resource>
 </vdc-list>
 </vdc>
-<interface xmlns="http://tail-f.com/ned/cisco-nx">
+<interface>
   <mgmt>
     <name>0</name>
     <description>to port9.sandbox-backend</description>
@@ -18346,14 +18346,14 @@
   <description>to</description>
 </loopback>
 </interface>
-<line xmlns="http://tail-f.com/ned/cisco-nx">
+<line>
 <console>
   <exec-timeout>0</exec-timeout>
 </console>
 <vty>
 </vty>
 </line>
-<router xmlns="http://tail-f.com/ned/cisco-nx">
+<router>
   <ospf>
     <id>1</id>
     <passive-interface>
@@ -18361,11 +18361,11 @@
     </passive-interface>
   </ospf>
 </router>
-<logging xmlns="http://tail-f.com/ned/cisco-nx">
+<logging>
   <monitor>5</monitor>
   <module>5</module>
 </logging>
-<yang-library xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<yang-library>
   <module-set>
     <name>common</name>
     <module>
@@ -18379,7 +18379,7 @@
     </module>
     <import-only-module>
       <name>tailf-ned-cisco-nx-id</name>
-      <revision></revision>
+      <revision/>
       <namespace>http://tail-f.com/ned/cisco-nx-id</namespace>
     </import-only-module>
   </module-set>
@@ -18388,20 +18388,20 @@
     <module-set>common</module-set>
   </schema>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:running</name>
+    <name>ds:running</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:intended</name>
+    <name>ds:intended</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:operational</name>
+    <name>ds:operational</name>
     <schema>common</schema>
   </datastore>
   <content-id>fcb10ea779fa5eb4b6c7f72cb777e824</content-id>
 </yang-library>
-<modules-state xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<modules-state>
   <module-set-id>fcb10ea779fa5eb4b6c7f72cb777e824</module-set-id>
   <module>
     <name>tailf-ned-cisco-nx</name>
@@ -18411,20 +18411,20 @@
   </module>
   <module>
     <name>tailf-ned-cisco-nx-id</name>
-    <revision></revision>
+    <revision/>
     <namespace>http://tail-f.com/ned/cisco-nx-id</namespace>
     <conformance-type>import</conformance-type>
   </module>
   <module>
     <name>tailf-ned-cisco-nx-stats</name>
-    <revision></revision>
+    <revision/>
     <namespace>http://tail-f.com/ned/cisco-nx/stats</namespace>
     <conformance-type>implement</conformance-type>
   </module>
 </modules-state>
 </config>
 <live-status>
-<mac xmlns="http://tail-f.com/ned/cisco-nx/stats">
+<mac>
   <address-table>
     <vlan>-</vlan>
     <mac-address>5254.000f.0a25</mac-address>
@@ -18570,7 +18570,7 @@
     <port>sup-eth1(R)</port>
   </address-table>
 </mac>
-<forwarding xmlns="http://tail-f.com/ned/cisco-nx/stats">
+<forwarding>
   <vrf>
     <name>default</name>
     <id>1</id>
@@ -18584,7 +18584,7 @@
     <reason>--</reason>
   </vrf>
 </forwarding>
-<interface xmlns="http://tail-f.com/ned/cisco-nx/stats">
+<interface>
   <ethernet>
     <name>1/1</name>
     <state>up</state>
@@ -28158,7 +28158,7 @@
     <ucast-pkts-in>0</ucast-pkts-in>
   </vlan>
 </interface>
-<ip xmlns="http://tail-f.com/ned/cisco-nx/stats">
+<ip>
 <route>
   <vrf>
     <name>default</name>
@@ -28683,7 +28683,7 @@
   </vrf>
 </route>
 </ip>
-<vlan xmlns="http://tail-f.com/ned/cisco-nx/stats">
+<vlan>
   <vlans>
     <vlanid>1</vlanid>
     <vlanname>default</vlanname>
@@ -28966,7 +28966,7 @@
     <l3-ucast-packets-in>0</l3-ucast-packets-in>
   </counters>
 </vlan>
-<vpc xmlns="http://tail-f.com/ned/cisco-nx/stats">
+<vpc>
 <role>
   <vpc-peer-status>peer-ok</vpc-peer-status>
   <vpc-peer-status-reason>SUCCESS</vpc-peer-status-reason>
@@ -29008,7 +29008,7 @@
     <vpc-param-peer-val>1,101-105</vpc-param-peer-val>
   </vpc_consistency>
   <vpc_consistency>
-    <vpc-param-name>Input Queuing (Absolute Priority: T->Enabled, F->Disabled)</vpc-param-name>
+    <vpc-param-name>Input Queuing (Absolute Priority: T-&gt;Enabled, F-&gt;Disabled)</vpc-param-name>
     <vpc-param-type>2</vpc-param-type>
     <vpc-param-local-val>(F, F, F, F, F, F)</vpc-param-local-val>
     <vpc-param-peer-val>(F, F, F, F, F, F)</vpc-param-peer-val>
@@ -29044,13 +29044,13 @@
     <vpc-param-peer-val>(1500, 1500, 1500, 1500, 0, 0)</vpc-param-peer-val>
   </vpc_consistency>
   <vpc_consistency>
-    <vpc-param-name>Network Qos (Pause: T->Enabled, F->Disabled)</vpc-param-name>
+    <vpc-param-name>Network Qos (Pause: T-&gt;Enabled, F-&gt;Disabled)</vpc-param-name>
     <vpc-param-type>2</vpc-param-type>
     <vpc-param-local-val>(F, F, F, F, F, F)</vpc-param-local-val>
     <vpc-param-peer-val>(F, F, F, F, F, F)</vpc-param-peer-val>
   </vpc_consistency>
   <vpc_consistency>
-    <vpc-param-name>Output Queuing (Absolute Priority: T->Enabled, F->Disabled)</vpc-param-name>
+    <vpc-param-name>Output Queuing (Absolute Priority: T-&gt;Enabled, F-&gt;Disabled)</vpc-param-name>
     <vpc-param-type>2</vpc-param-type>
     <vpc-param-local-val>(F, F, F, T, F, F)</vpc-param-local-val>
     <vpc-param-peer-val>(F, F, F, T, F, F)</vpc-param-peer-val>
@@ -29122,7 +29122,7 @@
 </global>
 </consistency-parameters>
 </vpc>
-<port-channel xmlns="http://tail-f.com/ned/cisco-nx/stats">
+<port-channel>
 <summary>
   <channel>
     <group>1</group>
@@ -29142,7 +29142,7 @@
   </channel>
 </summary>
 </port-channel>
-<yang-library xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<yang-library>
   <module-set>
     <name>common</name>
     <module>
@@ -29156,7 +29156,7 @@
     </module>
     <import-only-module>
       <name>tailf-ned-cisco-nx-id</name>
-      <revision></revision>
+      <revision/>
       <namespace>http://tail-f.com/ned/cisco-nx-id</namespace>
     </import-only-module>
   </module-set>
@@ -29165,20 +29165,20 @@
     <module-set>common</module-set>
   </schema>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:running</name>
+    <name>ds:running</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:intended</name>
+    <name>ds:intended</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:operational</name>
+    <name>ds:operational</name>
     <schema>common</schema>
   </datastore>
   <content-id>fcb10ea779fa5eb4b6c7f72cb777e824</content-id>
 </yang-library>
-<modules-state xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<modules-state>
   <module-set-id>fcb10ea779fa5eb4b6c7f72cb777e824</module-set-id>
   <module>
     <name>tailf-ned-cisco-nx</name>
@@ -29188,19 +29188,19 @@
   </module>
   <module>
     <name>tailf-ned-cisco-nx-id</name>
-    <revision></revision>
+    <revision/>
     <namespace>http://tail-f.com/ned/cisco-nx-id</namespace>
     <conformance-type>import</conformance-type>
   </module>
   <module>
     <name>tailf-ned-cisco-nx-stats</name>
-    <revision></revision>
+    <revision/>
     <namespace>http://tail-f.com/ned/cisco-nx/stats</namespace>
     <conformance-type>implement</conformance-type>
   </module>
 </modules-state>
 </live-status>
-<alarm-summary xmlns="http://tail-f.com/ns/ncs-alarms">
+<alarm-summary>
   <indeterminates>0</indeterminates>
   <criticals>0</criticals>
   <majors>0</majors>
@@ -29217,7 +29217,7 @@
   <authgroup>labadmin</authgroup>
   <device-type>
   <cli>
-    <ned-id xmlns:cisco-asa-cli-6.8="http://tail-f.com/ns/ned-id/cisco-asa-cli-6.8">cisco-asa-cli-6.8:cisco-asa-cli-6.8</ned-id>
+    <ned-id>cisco-asa-cli-6.8:cisco-asa-cli-6.8</ned-id>
     <protocol>telnet</protocol>
   </cli>
 </device-type>
@@ -29313,17 +29313,17 @@
   <serial-number>9AFN8FQXHD1</serial-number>
 </platform>
 <config>
-<same-security-traffic xmlns="http://cisco.com/ned/asa">
+<same-security-traffic>
 <permit>
   <inter-interface/>
 </permit>
 </same-security-traffic>
-<hostname xmlns="http://cisco.com/ned/asa">edge-firewall01</hostname>
-<service-policy xmlns="http://cisco.com/ned/asa">
+<hostname>edge-firewall01</hostname>
+<service-policy>
   <policy-map>global_policy</policy-map>
   <global/>
 </service-policy>
-<http xmlns="http://cisco.com/ned/asa">
+<http>
 <server>
 <enable>
 </enable>
@@ -29336,45 +29336,45 @@
   </interface>
 </address>
 </http>
-<passwd xmlns="http://cisco.com/ned/asa">
+<passwd>
   <word>2KFQnbNIdI.2KYOU</word>
   <encrypted/>
 </passwd>
-<enable xmlns="http://cisco.com/ned/asa">
+<enable>
 <password>
   <word>$sha512$5000$J50NJMWuScJkJiGvdrl95Q==$dTqX6SeWlO0fzudXj2Fa6g==</word>
   <pbkdf2/>
 </password>
 </enable>
-<names xmlns="_cisco-asa-cli-6.8:cisco-asa-cli-6.8#http://cisco.com/ned/asa"/>
-<ftp xmlns="http://cisco.com/ned/asa">
+<names/>
+<ftp>
   <mode>passive</mode>
 </ftp>
-<pager xmlns="http://cisco.com/ned/asa">
+<pager>
   <lines>23</lines>
 </pager>
-<mtu xmlns="http://cisco.com/ned/asa">
+<mtu>
   <name>inside</name>
   <mtu-size>1500</mtu-size>
 </mtu>
-<mtu xmlns="http://cisco.com/ned/asa">
+<mtu>
   <name>mgmt</name>
   <mtu-size>1500</mtu-size>
 </mtu>
-<mtu xmlns="http://cisco.com/ned/asa">
+<mtu>
   <name>outside</name>
   <mtu-size>1500</mtu-size>
 </mtu>
-<dynamic-access-policy-record xmlns="http://cisco.com/ned/asa">
+<dynamic-access-policy-record>
   <name>DfltAccessPolicy</name>
 </dynamic-access-policy-record>
-<user-identity xmlns="http://cisco.com/ned/asa">
+<user-identity>
   <default-domain>LOCAL</default-domain>
 </user-identity>
-<threat-detection xmlns="http://cisco.com/ned/asa">
+<threat-detection>
   <id>basic-threat</id>
 </threat-detection>
-<telnet xmlns="http://cisco.com/ned/asa">
+<telnet>
   <allowed-access>
     <address>0.0.0.0</address>
     <mask>0.0.0.0</mask>
@@ -29384,7 +29384,7 @@
   </allowed-access>
   <timeout>15</timeout>
 </telnet>
-<ssh xmlns="http://cisco.com/ned/asa">
+<ssh>
   <timeout>5</timeout>
   <stricthostkeycheck/>
   <allowed-access>
@@ -29395,7 +29395,7 @@
     </interface>
   </allowed-access>
 </ssh>
-<username xmlns="http://cisco.com/ned/asa">
+<username>
   <name>cisco</name>
   <password>
     <password>$sha512$5000$f7aG8JFWXbdbDtWm7NOO/Q==$6uXDdn5WwHJIBwQkPhDIOQ==</password>
@@ -29403,15 +29403,15 @@
     <privilege>15</privilege>
   </password>
 </username>
-<asdm xmlns="http://cisco.com/ned/asa">
+<asdm>
 <history>
   <enable>false</enable>
 </history>
 </asdm>
-<failover-conf xmlns="http://cisco.com/ned/asa">
+<failover-conf>
   <failover>false</failover>
 </failover-conf>
-<interface xmlns="http://cisco.com/ned/asa">
+<interface>
   <Management>
     <name>0/0</name>
     <duplex>full</duplex>
@@ -29459,7 +29459,7 @@
 <security-level>100</security-level>
 </GigabitEthernet>
 </interface>
-<object xmlns="http://cisco.com/ned/asa">
+<object>
   <network>
     <name>INSIDE-DEV</name>
     <subnet>
@@ -29503,7 +29503,7 @@
     </subnet>
   </network>
 </object>
-<object-group xmlns="http://cisco.com/ned/asa">
+<object-group>
   <network>
     <id>INSIDE-NETWORKS</id>
     <network-object>
@@ -29523,7 +29523,7 @@
     </network-object>
   </network>
 </object-group>
-<access-list xmlns="http://cisco.com/ned/asa">
+<access-list>
   <access-list-id>
     <id>global_access</id>
     <rule>
@@ -29544,7 +29544,7 @@
     </rule>
   </access-list-id>
 </access-list>
-<access-group xmlns="http://cisco.com/ned/asa">
+<access-group>
   <interface-list>
     <direction>in</direction>
     <interface>inside</interface>
@@ -29555,13 +29555,13 @@
     <access-list>global_access</access-list>
   </global-list>
 </access-group>
-<class-map xmlns="http://cisco.com/ned/asa">
+<class-map>
   <name>inspection_default</name>
   <match>
     <default-inspection-traffic/>
   </match>
 </class-map>
-<policy-map xmlns="http://cisco.com/ned/asa">
+<policy-map>
   <name>global_policy</name>
   <class>
     <name>inspection_default</name>
@@ -29594,7 +29594,7 @@
   </inspect>
 </class>
 </policy-map>
-<policy-map xmlns="http://cisco.com/ned/asa">
+<policy-map>
   <name>migrated_dns_map_1</name>
   <type>inspect</type>
   <protocol>dns</protocol>
@@ -29608,7 +29608,7 @@
 <tcp-inspection>false</tcp-inspection>
 </parameters>
 </policy-map>
-<policy-map xmlns="http://cisco.com/ned/asa">
+<policy-map>
   <name>migrated_dns_map_2</name>
   <type>inspect</type>
   <protocol>dns</protocol>
@@ -29622,7 +29622,7 @@
 <tcp-inspection>false</tcp-inspection>
 </parameters>
 </policy-map>
-<policy-map xmlns="http://cisco.com/ned/asa">
+<policy-map>
   <name>migrated_dns_map_3</name>
   <type>inspect</type>
   <protocol>dns</protocol>
@@ -29636,7 +29636,7 @@
 <tcp-inspection>false</tcp-inspection>
 </parameters>
 </policy-map>
-<policy-map xmlns="http://cisco.com/ned/asa">
+<policy-map>
   <name>migrated_dns_map_4</name>
   <type>inspect</type>
   <protocol>dns</protocol>
@@ -29650,7 +29650,7 @@
 <tcp-inspection>false</tcp-inspection>
 </parameters>
 </policy-map>
-<policy-map xmlns="http://cisco.com/ned/asa">
+<policy-map>
   <name>preset_dns_map</name>
   <type>inspect</type>
   <protocol>dns</protocol>
@@ -29664,11 +29664,11 @@
 <tcp-inspection>false</tcp-inspection>
 </parameters>
 </policy-map>
-<logging xmlns="http://cisco.com/ned/asa">
+<logging>
   <enable/>
   <asdm>informational</asdm>
 </logging>
-<aaa xmlns="http://cisco.com/ned/asa">
+<aaa>
 <authentication>
 <ssh>
 <console>
@@ -29681,30 +29681,30 @@
 </login-history-duration>
 </authentication>
 </aaa>
-<route xmlns="http://cisco.com/ned/asa">
+<route>
   <id>mgmt</id>
   <net>0.0.0.0</net>
   <net-mask>0.0.0.0</net-mask>
   <gw>10.10.20.254</gw>
   <metric>1</metric>
 </route>
-<route xmlns="http://cisco.com/ned/asa">
+<route>
   <id>outside</id>
   <net>172.31.0.0</net>
   <net-mask>255.255.0.0</net-mask>
   <gw>172.31.252.1</gw>
   <metric>1</metric>
 </route>
-<monitor-interface xmlns="http://cisco.com/ned/asa">
+<monitor-interface>
   <service-module>false</service-module>
 </monitor-interface>
-<icmp xmlns="http://cisco.com/ned/asa">
+<icmp>
 <unreachable>
   <rate-limit>1</rate-limit>
   <burst-size>1</burst-size>
 </unreachable>
 </icmp>
-<crypto xmlns="http://cisco.com/ned/asa">
+<crypto>
 <ca>
 <certificate>
   <chain>
@@ -29783,7 +29783,7 @@
 </security-association>
 </ipsec>
 </crypto>
-<router xmlns="http://cisco.com/ned/asa">
+<router>
   <ospf>
     <id>1</id>
     <network>
@@ -29799,12 +29799,12 @@
   </log-adj-changes>
 </ospf>
 </router>
-<arp xmlns="http://cisco.com/ned/asa">
+<arp>
   <timeout>14400</timeout>
   <rate-limit>8192</rate-limit>
   <permit-nonconnected>false</permit-nonconnected>
 </arp>
-<dns xmlns="http://cisco.com/ned/asa">
+<dns>
   <domain-lookup>
     <name>mgmt</name>
   </domain-lookup>
@@ -29814,15 +29814,15 @@
     <name-server>10.17.248.12</name-server>
   </server-group>
 </dns>
-<prompt xmlns="http://cisco.com/ned/asa">hostname</prompt>
-<prompt xmlns="http://cisco.com/ned/asa">context</prompt>
-<console xmlns="http://cisco.com/ned/asa">
+<prompt>hostname</prompt>
+<prompt>context</prompt>
+<console>
   <timeout>0</timeout>
 </console>
-<management-access xmlns="http://cisco.com/ned/asa">
+<management-access>
   <nameif>mgmt</nameif>
 </management-access>
-<license xmlns="http://cisco.com/ned/asa">
+<license>
 <smart>
 <feature>
 <tier>
@@ -29834,7 +29834,7 @@
 </throughput>
 </smart>
 </license>
-<timeout xmlns="http://cisco.com/ned/asa">
+<timeout>
   <conn>1:00:00</conn>
   <conn-holddown>0:00:15</conn-holddown>
   <floating-conn>0:00:00</floating-conn>
@@ -29863,7 +29863,7 @@
   <udp>0:02:00</udp>
   <xlate>3:00:00</xlate>
 </timeout>
-<call-home xmlns="http://cisco.com/ned/asa">
+<call-home>
   <profile>
     <id>CiscoTAC-1</id>
     <active>false</active>
@@ -29884,7 +29884,7 @@
 </destination>
 </profile>
 </call-home>
-<yang-library xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<yang-library>
   <module-set>
     <name>common</name>
     <module>
@@ -29913,7 +29913,7 @@
     </module>
     <import-only-module>
       <name>tailf-ned-cisco-asa-id</name>
-      <revision></revision>
+      <revision/>
       <namespace>http://cisco.com/ned/asa-id</namespace>
     </import-only-module>
   </module-set>
@@ -29922,20 +29922,20 @@
     <module-set>common</module-set>
   </schema>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:running</name>
+    <name>ds:running</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:intended</name>
+    <name>ds:intended</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:operational</name>
+    <name>ds:operational</name>
     <schema>common</schema>
   </datastore>
   <content-id>47b7bbb7e0c175b25c036ef352b70515</content-id>
 </yang-library>
-<modules-state xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<modules-state>
   <module-set-id>47b7bbb7e0c175b25c036ef352b70515</module-set-id>
   <module>
     <name>ietf-interfaces</name>
@@ -29962,31 +29962,31 @@
   </module>
   <module>
     <name>tailf-ned-cisco-asa-id</name>
-    <revision></revision>
+    <revision/>
     <namespace>http://cisco.com/ned/asa-id</namespace>
     <conformance-type>import</conformance-type>
   </module>
   <module>
     <name>tailf-ned-cisco-asa-stats</name>
-    <revision></revision>
+    <revision/>
     <namespace>http://cisco.com/ned/asa-stats</namespace>
     <conformance-type>implement</conformance-type>
   </module>
 </modules-state>
 </config>
 <live-status>
-<version xmlns="http://cisco.com/ned/asa-stats">
+<version>
   <name>asa</name>
   <version>9.12(2)</version>
   <model>ASAv</model>
   <serial-number>9AFN8FQXHD1</serial-number>
 </version>
-<inventory xmlns="http://cisco.com/ned/asa-stats">
+<inventory>
   <name>Chassis</name>
   <descr>ASAv Adaptive Security Virtual Appliance</descr>
   <sn>9AFN8FQXHD1</sn>
 </inventory>
-<interfaces-state xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+<interfaces-state>
   <interface>
     <name>GigabitEthernet0/0</name>
     <admin-status>up</admin-status>
@@ -30002,7 +30002,7 @@
       <out-unicast-pkts>2</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
       <address>
@@ -30010,7 +30010,7 @@
         <netmask>255.255.255.0</netmask>
       </address>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
@@ -30030,7 +30030,7 @@
       <out-unicast-pkts>295</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
       <address>
@@ -30038,7 +30038,7 @@
         <netmask>255.255.255.248</netmask>
       </address>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
@@ -30058,7 +30058,7 @@
       <out-unicast-pkts>12640</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
       <address>
@@ -30066,13 +30066,13 @@
         <netmask>255.255.255.0</netmask>
       </address>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
   </interface>
 </interfaces-state>
-<yang-library xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<yang-library>
   <module-set>
     <name>common</name>
     <module>
@@ -30101,7 +30101,7 @@
     </module>
     <import-only-module>
       <name>tailf-ned-cisco-asa-id</name>
-      <revision></revision>
+      <revision/>
       <namespace>http://cisco.com/ned/asa-id</namespace>
     </import-only-module>
   </module-set>
@@ -30110,20 +30110,20 @@
     <module-set>common</module-set>
   </schema>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:running</name>
+    <name>ds:running</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:intended</name>
+    <name>ds:intended</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:operational</name>
+    <name>ds:operational</name>
     <schema>common</schema>
   </datastore>
   <content-id>47b7bbb7e0c175b25c036ef352b70515</content-id>
 </yang-library>
-<modules-state xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<modules-state>
   <module-set-id>47b7bbb7e0c175b25c036ef352b70515</module-set-id>
   <module>
     <name>ietf-interfaces</name>
@@ -30150,19 +30150,19 @@
   </module>
   <module>
     <name>tailf-ned-cisco-asa-id</name>
-    <revision></revision>
+    <revision/>
     <namespace>http://cisco.com/ned/asa-id</namespace>
     <conformance-type>import</conformance-type>
   </module>
   <module>
     <name>tailf-ned-cisco-asa-stats</name>
-    <revision></revision>
+    <revision/>
     <namespace>http://cisco.com/ned/asa-stats</namespace>
     <conformance-type>implement</conformance-type>
   </module>
 </modules-state>
 </live-status>
-<alarm-summary xmlns="http://tail-f.com/ns/ncs-alarms">
+<alarm-summary>
   <indeterminates>0</indeterminates>
   <criticals>0</criticals>
   <majors>0</majors>
@@ -30179,7 +30179,7 @@
   <authgroup>labadmin</authgroup>
   <device-type>
   <cli>
-    <ned-id xmlns:cisco-ios-cli-6.44="http://tail-f.com/ns/ned-id/cisco-ios-cli-6.44">cisco-ios-cli-6.44:cisco-ios-cli-6.44</ned-id>
+    <ned-id>cisco-ios-cli-6.44:cisco-ios-cli-6.44</ned-id>
     <protocol>telnet</protocol>
   </cli>
 </device-type>
@@ -30278,11 +30278,11 @@
   <serial-number>9S1AYQGIHOP</serial-number>
 </platform>
 <config>
-<tailfned xmlns="urn:ios">
+<tailfned>
   <police>cirmode</police>
 </tailfned>
-<version xmlns="urn:ios">15.2</version>
-<service xmlns="urn:ios">
+<version>15.2</version>
+<service>
 <timestamps>
 <debug>
 <datetime>
@@ -30297,11 +30297,11 @@
 </timestamps>
 <compress-config/>
 </service>
-<cdp xmlns="urn:ios">
+<cdp>
   <run>false</run>
 </cdp>
-<hostname xmlns="urn:ios">edge-sw01</hostname>
-<vrf xmlns="urn:ios">
+<hostname>edge-sw01</hostname>
+<vrf>
   <definition>
     <name>Mgmt-intf</name>
     <address-family>
@@ -30312,12 +30312,12 @@
   </address-family>
 </definition>
 </vrf>
-<enable xmlns="urn:ios">
+<enable>
 <password>
   <secret>cisco</secret>
 </password>
 </enable>
-<ip xmlns="urn:ios">
+<ip>
 <cef-conf>
   <cef/>
 </cef-conf>
@@ -30360,12 +30360,12 @@
   </vrf>
 </route>
 </ip>
-<vtp xmlns="urn:ios">
+<vtp>
   <version>1</version>
   <domain>virl.lab</domain>
   <mode>transparent</mode>
 </vtp>
-<vlan xmlns="urn:ios">
+<vlan>
   <vlan-list>
     <id>1</id>
     <name>default</name>
@@ -30379,7 +30379,7 @@
     <name>edge-transit</name>
   </vlan-list>
 </vlan>
-<interface xmlns="urn:ios">
+<interface>
   <Loopback>
     <name>0</name>
     <description>to</description>
@@ -30476,7 +30476,7 @@
 <duplex>full</duplex>
 </GigabitEthernet>
 </interface>
-<banner xmlns="urn:ios">
+<banner>
   <exec>CC&#13;
 **************************************************************************&#13;
 * IOSv is strictly limited to use for evaluation, demonstration and IOS  *&#13;
@@ -30505,9 +30505,9 @@
 * Cisco in writing.                                                      *&#13;
 **************************************************************************</login>
 </banner>
-<control-plane xmlns="urn:ios">
+<control-plane>
 </control-plane>
-<line xmlns="urn:ios">
+<line>
   <console>
     <first>0</first>
     <exec-timeout>
@@ -30537,7 +30537,7 @@
     </transport>
   </vty>
 </line>
-<logging xmlns="urn:ios">
+<logging>
 <buffered>
   <severity-level>debugging</severity-level>
 </buffered>
@@ -30545,13 +30545,13 @@
   <severity-level>debugging</severity-level>
 </monitor>
 </logging>
-<spanning-tree xmlns="urn:ios">
+<spanning-tree>
 <extend>
   <system-id/>
 </extend>
 <mode>pvst</mode>
 </spanning-tree>
-<yang-library xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<yang-library>
   <module-set>
     <name>common</name>
     <module>
@@ -30580,7 +30580,7 @@
     </module>
     <import-only-module>
       <name>tailf-ned-cisco-ios-id</name>
-      <revision></revision>
+      <revision/>
       <namespace>urn:ios-id</namespace>
     </import-only-module>
   </module-set>
@@ -30589,20 +30589,20 @@
     <module-set>common</module-set>
   </schema>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:running</name>
+    <name>ds:running</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:intended</name>
+    <name>ds:intended</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:operational</name>
+    <name>ds:operational</name>
     <schema>common</schema>
   </datastore>
   <content-id>6997dfc36a18679f43c55c43b7873b15</content-id>
 </yang-library>
-<modules-state xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<modules-state>
   <module-set-id>6997dfc36a18679f43c55c43b7873b15</module-set-id>
   <module>
     <name>ietf-interfaces</name>
@@ -30629,20 +30629,20 @@
   </module>
   <module>
     <name>tailf-ned-cisco-ios-id</name>
-    <revision></revision>
+    <revision/>
     <namespace>urn:ios-id</namespace>
     <conformance-type>import</conformance-type>
   </module>
   <module>
     <name>tailf-ned-cisco-ios-stats</name>
-    <revision></revision>
+    <revision/>
     <namespace>urn:ios-stats</namespace>
     <conformance-type>implement</conformance-type>
   </module>
 </modules-state>
 </config>
 <live-status>
-<interfaces-state xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+<interfaces-state>
   <interface>
     <name>GigabitEthernet0/0</name>
     <admin-status>up</admin-status>
@@ -30658,7 +30658,7 @@
       <out-unicast-pkts>13409</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
       <address>
@@ -30667,7 +30667,7 @@
         <origin>other</origin>
       </address>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
@@ -30687,11 +30687,11 @@
       <out-unicast-pkts>1685</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
@@ -30711,11 +30711,11 @@
       <out-unicast-pkts>1683</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
@@ -30735,11 +30735,11 @@
       <out-unicast-pkts>1727</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
@@ -30757,17 +30757,17 @@
       <out-unicast-pkts>0</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1514</mtu>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1514</mtu>
     </ipv6>
   </interface>
 </interfaces-state>
-<arp xmlns="urn:ios-stats">
+<arp>
   <vrf>
     <name>Mgmt-intf</name>
     <address>
@@ -30835,46 +30835,46 @@
     </address>
   </vrf>
 </arp>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>GigabitEthernet</type>
   <name>0/0</name>
   <admin-status>up</admin-status>
   <ip-address>10.10.20.172/24</ip-address>
   <mac-address>5254.0001.90ec</mac-address>
 </interfaces>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>GigabitEthernet</type>
   <name>0/1</name>
   <admin-status>up</admin-status>
   <mac-address>5254.0010.477a</mac-address>
 </interfaces>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>GigabitEthernet</type>
   <name>0/2</name>
   <admin-status>up</admin-status>
   <mac-address>5254.0006.b83f</mac-address>
 </interfaces>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>GigabitEthernet</type>
   <name>0/3</name>
   <admin-status>up</admin-status>
   <mac-address>5254.0014.d07d</mac-address>
 </interfaces>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>Loopback</type>
   <name>0</name>
   <admin-status>down</admin-status>
 </interfaces>
-<version xmlns="urn:ios-stats">
+<version>
   <name>ios</name>
   <version>15.2(CML</version>
   <model>IOSv</model>
   <serial-number>9S1AYQGIHOP</serial-number>
 </version>
-<vrf xmlns="urn:ios-stats">
+<vrf>
   <name>Mgmt-intf</name>
 </vrf>
-<yang-library xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<yang-library>
   <module-set>
     <name>common</name>
     <module>
@@ -30903,7 +30903,7 @@
     </module>
     <import-only-module>
       <name>tailf-ned-cisco-ios-id</name>
-      <revision></revision>
+      <revision/>
       <namespace>urn:ios-id</namespace>
     </import-only-module>
   </module-set>
@@ -30912,20 +30912,20 @@
     <module-set>common</module-set>
   </schema>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:running</name>
+    <name>ds:running</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:intended</name>
+    <name>ds:intended</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:operational</name>
+    <name>ds:operational</name>
     <schema>common</schema>
   </datastore>
   <content-id>6997dfc36a18679f43c55c43b7873b15</content-id>
 </yang-library>
-<modules-state xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<modules-state>
   <module-set-id>6997dfc36a18679f43c55c43b7873b15</module-set-id>
   <module>
     <name>ietf-interfaces</name>
@@ -30952,19 +30952,19 @@
   </module>
   <module>
     <name>tailf-ned-cisco-ios-id</name>
-    <revision></revision>
+    <revision/>
     <namespace>urn:ios-id</namespace>
     <conformance-type>import</conformance-type>
   </module>
   <module>
     <name>tailf-ned-cisco-ios-stats</name>
-    <revision></revision>
+    <revision/>
     <namespace>urn:ios-stats</namespace>
     <conformance-type>implement</conformance-type>
   </module>
 </modules-state>
 </live-status>
-<alarm-summary xmlns="http://tail-f.com/ns/ncs-alarms">
+<alarm-summary>
   <indeterminates>0</indeterminates>
   <criticals>0</criticals>
   <majors>0</majors>
@@ -30981,7 +30981,7 @@
   <authgroup>labadmin</authgroup>
   <device-type>
   <cli>
-    <ned-id xmlns:cisco-ios-cli-6.44="http://tail-f.com/ns/ned-id/cisco-ios-cli-6.44">cisco-ios-cli-6.44:cisco-ios-cli-6.44</ned-id>
+    <ned-id>cisco-ios-cli-6.44:cisco-ios-cli-6.44</ned-id>
     <protocol>telnet</protocol>
   </cli>
 </device-type>
@@ -31080,11 +31080,11 @@
   <serial-number>9LR3CKOHOQO</serial-number>
 </platform>
 <config>
-<tailfned xmlns="urn:ios">
+<tailfned>
   <police>cirmode</police>
 </tailfned>
-<version xmlns="urn:ios">16.11</version>
-<service xmlns="urn:ios">
+<version>16.11</version>
+<service>
 <timestamps>
 <debug>
 <datetime>
@@ -31099,12 +31099,12 @@
 </timestamps>
 <call-home/>
 </service>
-<login xmlns="urn:ios">
+<login>
 <on-success>
   <log/>
 </on-success>
 </login>
-<platform xmlns="urn:ios">
+<platform>
   <console>serial</console>
   <punt-keepalive>
     <disable-kernel-core>false</disable-kernel-core>
@@ -31117,8 +31117,8 @@
 </utilization>
 </qfp>
 </platform>
-<hostname xmlns="urn:ios">internet-rtr01</hostname>
-<vrf xmlns="urn:ios">
+<hostname>internet-rtr01</hostname>
+<vrf>
   <definition>
     <name>Mgmt-intf</name>
     <address-family>
@@ -31129,12 +31129,12 @@
   </address-family>
 </definition>
 </vrf>
-<enable xmlns="urn:ios">
+<enable>
 <password>
   <secret>cisco</secret>
 </password>
 </enable>
-<call-home xmlns="urn:ios">
+<call-home>
   <contact-email-addr>sch-smart-licensing@cisco.com</contact-email-addr>
   <profile>
     <name>CiscoTAC-1</name>
@@ -31150,7 +31150,7 @@
   </destination>
 </profile>
 </call-home>
-<ip xmlns="urn:ios">
+<ip>
 <domain>
 <lookup-conf>
   <lookup>false</lookup>
@@ -31187,13 +31187,13 @@
   </vrf>
 </route>
 </ip>
-<subscriber xmlns="urn:ios">
+<subscriber>
   <templating>true</templating>
 </subscriber>
-<multilink xmlns="urn:ios">
+<multilink>
   <bundle-name>authenticated</bundle-name>
 </multilink>
-<username xmlns="urn:ios">
+<username>
   <name>cisco</name>
   <privilege>15</privilege>
   <secret>
@@ -31201,9 +31201,9 @@
     <secret>$9$X8t5V6eWdPoRd.$wOxXAiJ8i7jeYcH70M82cMnxDgwX.31ymh9Y18oj3eg</secret>
   </secret>
 </username>
-<redundancy xmlns="urn:ios">
+<redundancy>
 </redundancy>
-<crypto xmlns="urn:ios">
+<crypto>
 <pki>
   <trustpoint>
     <id>SLA-TrustPoint</id>
@@ -31295,7 +31295,7 @@
   </certificate>
 </pki>
 </crypto>
-<interface xmlns="urn:ios">
+<interface>
   <Loopback>
     <name>0</name>
     <description>to</description>
@@ -31384,9 +31384,9 @@
 <shutdown/>
 </GigabitEthernet>
 </interface>
-<control-plane xmlns="urn:ios">
+<control-plane>
 </control-plane>
-<line xmlns="urn:ios">
+<line>
   <console>
     <first>0</first>
     <exec-timeout>
@@ -31415,7 +31415,7 @@
     </transport>
   </vty>
 </line>
-<logging xmlns="urn:ios">
+<logging>
 <buffered>
   <severity-level>debugging</severity-level>
 </buffered>
@@ -31423,24 +31423,24 @@
   <severity-level>debugging</severity-level>
 </monitor>
 </logging>
-<spanning-tree xmlns="urn:ios">
+<spanning-tree>
 <extend>
   <system-id/>
 </extend>
 </spanning-tree>
-<diagnostic xmlns="urn:ios">
+<diagnostic>
 <bootup>
   <level>minimal</level>
 </bootup>
 </diagnostic>
-<memory xmlns="urn:ios">
+<memory>
 <free>
 <low-watermark>
   <processor>80526</processor>
 </low-watermark>
 </free>
 </memory>
-<yang-library xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<yang-library>
   <module-set>
     <name>common</name>
     <module>
@@ -31469,7 +31469,7 @@
     </module>
     <import-only-module>
       <name>tailf-ned-cisco-ios-id</name>
-      <revision></revision>
+      <revision/>
       <namespace>urn:ios-id</namespace>
     </import-only-module>
   </module-set>
@@ -31478,20 +31478,20 @@
     <module-set>common</module-set>
   </schema>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:running</name>
+    <name>ds:running</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:intended</name>
+    <name>ds:intended</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:operational</name>
+    <name>ds:operational</name>
     <schema>common</schema>
   </datastore>
   <content-id>6997dfc36a18679f43c55c43b7873b15</content-id>
 </yang-library>
-<modules-state xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<modules-state>
   <module-set-id>6997dfc36a18679f43c55c43b7873b15</module-set-id>
   <module>
     <name>ietf-interfaces</name>
@@ -31518,20 +31518,20 @@
   </module>
   <module>
     <name>tailf-ned-cisco-ios-id</name>
-    <revision></revision>
+    <revision/>
     <namespace>urn:ios-id</namespace>
     <conformance-type>import</conformance-type>
   </module>
   <module>
     <name>tailf-ned-cisco-ios-stats</name>
-    <revision></revision>
+    <revision/>
     <namespace>urn:ios-stats</namespace>
     <conformance-type>implement</conformance-type>
   </module>
 </modules-state>
 </config>
 <live-status>
-<interfaces-state xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+<interfaces-state>
   <interface>
     <name>GigabitEthernet1</name>
     <admin-status>up</admin-status>
@@ -31547,7 +31547,7 @@
       <out-unicast-pkts>12946</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
       <address>
@@ -31556,7 +31556,7 @@
         <origin>other</origin>
       </address>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
@@ -31576,7 +31576,7 @@
       <out-unicast-pkts>2</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
       <address>
@@ -31585,7 +31585,7 @@
         <origin>other</origin>
       </address>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
@@ -31605,7 +31605,7 @@
       <out-unicast-pkts>1</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
       <address>
@@ -31614,7 +31614,7 @@
         <origin>other</origin>
       </address>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
@@ -31634,11 +31634,11 @@
       <out-unicast-pkts>0</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1500</mtu>
     </ipv6>
@@ -31656,17 +31656,17 @@
       <out-unicast-pkts>0</out-unicast-pkts>
       <out-errors>0</out-errors>
     </statistics>
-    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv4>
       <forwarding>true</forwarding>
       <mtu>1514</mtu>
     </ipv4>
-    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    <ipv6>
       <forwarding>true</forwarding>
       <mtu>1514</mtu>
     </ipv6>
   </interface>
 </interfaces-state>
-<arp xmlns="urn:ios-stats">
+<arp>
   <address>
     <ip>172.31.0.1</ip>
     <protocol>Internet</protocol>
@@ -31716,53 +31716,53 @@
     </address>
   </vrf>
 </arp>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>GigabitEthernet</type>
   <name>1</name>
   <admin-status>up</admin-status>
   <ip-address>10.10.20.181/24</ip-address>
   <mac-address>5254.000c.dfa9</mac-address>
 </interfaces>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>GigabitEthernet</type>
   <name>2</name>
   <admin-status>up</admin-status>
   <ip-address>172.31.252.1/24</ip-address>
   <mac-address>5254.0014.365c</mac-address>
 </interfaces>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>GigabitEthernet</type>
   <name>3</name>
   <admin-status>up</admin-status>
   <ip-address>172.31.0.1/24</ip-address>
   <mac-address>5254.0008.a314</mac-address>
 </interfaces>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>GigabitEthernet</type>
   <name>4</name>
   <admin-status>down</admin-status>
   <mac-address>5254.0002.a8fb</mac-address>
 </interfaces>
-<interfaces xmlns="urn:ios-stats">
+<interfaces>
   <type>Loopback</type>
   <name>0</name>
   <admin-status>down</admin-status>
 </interfaces>
-<inventory xmlns="urn:ios-stats">
+<inventory>
   <name>Chassis</name>
   <descr>Cisco CSR1000V Chassis</descr>
   <sn>9LR3CKOHOQO</sn>
 </inventory>
-<inventory xmlns="urn:ios-stats">
+<inventory>
   <name>module F0</name>
   <descr>Cisco CSR1000V Embedded Services Processor</descr>
 </inventory>
-<inventory xmlns="urn:ios-stats">
+<inventory>
   <name>module R0</name>
   <descr>Cisco CSR1000V Route Processor</descr>
   <sn>JAB1303001C</sn>
 </inventory>
-<running-config xmlns="urn:ios-stats">
+<running-config>
 <license>
 <udi>
   <pid>CSR1000V</pid>
@@ -31770,7 +31770,7 @@
 </udi>
 </license>
 </running-config>
-<version xmlns="urn:ios-stats">
+<version>
   <name>ios</name>
   <version>16.11.01b</version>
   <model>CSR1000V</model>
@@ -31780,10 +31780,10 @@
     <type>N/A(Smart</type>
   </license>
 </version>
-<vrf xmlns="urn:ios-stats">
+<vrf>
   <name>Mgmt-intf</name>
 </vrf>
-<yang-library xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<yang-library>
   <module-set>
     <name>common</name>
     <module>
@@ -31812,7 +31812,7 @@
     </module>
     <import-only-module>
       <name>tailf-ned-cisco-ios-id</name>
-      <revision></revision>
+      <revision/>
       <namespace>urn:ios-id</namespace>
     </import-only-module>
   </module-set>
@@ -31821,20 +31821,20 @@
     <module-set>common</module-set>
   </schema>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:running</name>
+    <name>ds:running</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:intended</name>
+    <name>ds:intended</name>
     <schema>common</schema>
   </datastore>
   <datastore>
-    <name xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">ds:operational</name>
+    <name>ds:operational</name>
     <schema>common</schema>
   </datastore>
   <content-id>6997dfc36a18679f43c55c43b7873b15</content-id>
 </yang-library>
-<modules-state xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-library">
+<modules-state>
   <module-set-id>6997dfc36a18679f43c55c43b7873b15</module-set-id>
   <module>
     <name>ietf-interfaces</name>
@@ -31861,19 +31861,19 @@
   </module>
   <module>
     <name>tailf-ned-cisco-ios-id</name>
-    <revision></revision>
+    <revision/>
     <namespace>urn:ios-id</namespace>
     <conformance-type>import</conformance-type>
   </module>
   <module>
     <name>tailf-ned-cisco-ios-stats</name>
-    <revision></revision>
+    <revision/>
     <namespace>urn:ios-stats</namespace>
     <conformance-type>implement</conformance-type>
   </module>
 </modules-state>
 </live-status>
-<alarm-summary xmlns="http://tail-f.com/ns/ncs-alarms">
+<alarm-summary>
   <indeterminates>0</indeterminates>
   <criticals>0</criticals>
   <majors>0</majors>
@@ -31883,16 +31883,16 @@
 </device>
 <ned-ids>
   <ned-id>
-    <id xmlns:ned="http://tail-f.com/ns/ncs-ned">ned:lsa-netconf</id>
+    <id>ned:lsa-netconf</id>
   </ned-id>
   <ned-id>
-    <id xmlns:ned="http://tail-f.com/ns/ncs-ned">ned:netconf</id>
+    <id>ned:netconf</id>
   </ned-id>
   <ned-id>
-    <id xmlns:ned="http://tail-f.com/ns/ncs-ned">ned:snmp</id>
+    <id>ned:snmp</id>
   </ned-id>
   <ned-id>
-    <id xmlns:cisco-asa-cli-6.8="http://tail-f.com/ns/ned-id/cisco-asa-cli-6.8">cisco-asa-cli-6.8:cisco-asa-cli-6.8</id>
+    <id>cisco-asa-cli-6.8:cisco-asa-cli-6.8</id>
     <module>
       <name>ietf-interfaces</name>
       <revision>2014-05-08</revision>
@@ -31918,7 +31918,7 @@
     </module>
   </ned-id>
   <ned-id>
-    <id xmlns:cisco-ios-cli-6.44="http://tail-f.com/ns/ned-id/cisco-ios-cli-6.44">cisco-ios-cli-6.44:cisco-ios-cli-6.44</id>
+    <id>cisco-ios-cli-6.44:cisco-ios-cli-6.44</id>
     <module>
       <name>ietf-interfaces</name>
       <revision>2014-05-08</revision>
@@ -31944,7 +31944,7 @@
     </module>
   </ned-id>
   <ned-id>
-    <id xmlns:cisco-iosxr-cli-7.20="http://tail-f.com/ns/ned-id/cisco-iosxr-cli-7.20">cisco-iosxr-cli-7.20:cisco-iosxr-cli-7.20</id>
+    <id>cisco-iosxr-cli-7.20:cisco-iosxr-cli-7.20</id>
     <module>
       <name>ietf-interfaces</name>
       <revision>2014-05-08</revision>
@@ -31970,7 +31970,7 @@
     </module>
   </ned-id>
   <ned-id>
-    <id xmlns:cisco-nx-cli-5.15="http://tail-f.com/ns/ned-id/cisco-nx-cli-5.15">cisco-nx-cli-5.15:cisco-nx-cli-5.15</id>
+    <id>cisco-nx-cli-5.15:cisco-nx-cli-5.15</id>
     <module>
       <name>tailf-ned-cisco-nx</name>
       <revision>2020-02-14</revision>
