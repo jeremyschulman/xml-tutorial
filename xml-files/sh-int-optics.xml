@@ -1529,7 +1529,7 @@
         <rx_pwr_warn_hi>2.49</rx_pwr_warn_hi>
         <rx_pwr_warn_lo>-14.43</rx_pwr_warn_lo>
         <temperature>48.75</temperature>
-        <temp_flag> </temp_flag>
+        <temp_flag>++</temp_flag>
         <temp_alrm_hi>80.00</temp_alrm_hi>
         <temp_alrm_lo>-10.00</temp_alrm_lo>
         <temp_warn_hi>75.00</temp_warn_hi>
